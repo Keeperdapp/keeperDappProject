@@ -16,20 +16,6 @@
     <link rel="stylesheet" href="{{ asset('assets') }}/css/vendor.bundlee222.css?ver=142"><!-- Custom styles for this template -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/stylee222.css?ver=142">
     <link rel="stylesheet" href="{{ asset('assets') }}/css/theme-orangee222.css?ver=142" id="layoutstyle">
-    {{-- <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'analytics.js', 'ga');
-        ga('create', 'UA-91615293-2', 'auto');
-        ga('send', 'pageview');
-    </script> --}}
 </head>
 
 <body class="theme-dark io-zinnia" data-spy="scroll" data-target="#mainnav" data-offset="80">
@@ -72,14 +58,14 @@
                         <div class="col-sm-10 col-md-12 col-lg-10">
                             <div class="header-txt tab-center mobile-center">
                                 <h1 class="animated" data-animate="fadeInUp" data-delay="1.25">The World’s
-                                    1<sup>st</sup> ICO Platform That Offers <br class="d-none d-xl-block"> Rewards
-                                    Contributors
+                                    1<sup>st</sup> Platform That Brings <br class="d-none d-xl-block"> All
+                                    Decentralized Applications Together
                                 </h1>
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
-                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">ICO aims to become
+                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">Keeper aims to become
                                     the
-                                    leading digital ICO <br class="d-none d-sm-block"> base template in worldwide</p>
+                                    leading decentralized application <br class="d-none d-sm-block"> to base template in crytocurrency worldwide</p>
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
@@ -97,9 +83,8 @@
                 <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
                 <li><a href="#"><em class="fab fa-twitter"></em></a></li>
                 <li><a href="#"><em class="fab fa-youtube"></em></a></li>
-                <li><a href="#"><em class="fab fa-github"></em></a></li>
-                <li><a href="#"><em class="fab fa-bitcoin"></em></a></li>
-                <li><a href="#"><em class="fab fa-medium-m"></em></a></li>
+                <li><a href="#"><em class="fab fa-telegram"></em></a></li>
+                <li><a href="#"><em class="fab fa-bandcamp"></em></a></li>
             </ul>
         </div><!-- End Banner/Slider -->
         <div class="presale-box animated" data-animate="fadeIn" data-delay="1.65">
@@ -136,15 +121,11 @@
             <div class="row justify-content-center text-center">
                 <div class="col-md-10">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">About ICO</h2>
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">About Keeper</h2>
 
-                        <p class="lead animated" data-animate="fadeInUp" data-delay=".2">Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. At
-                            vero
-                            eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
-                            non
-                            provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
+                        <p class="lead animated" data-animate="fadeInUp" data-delay=".2">
+                            Keeper.DApp Network is a decentralized Financial System that has an interoperability characteristic of integrating the crypto world Apps into one App which makes it easier for users to simultaneously manage, protect and navigate in the crypto space just by switching.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -172,21 +153,19 @@
                         <h2 class="animated" data-animate="fadeInUp" data-delay=".1">Direct-To-Consumer
                             Decentralize Platform</h2>
 
-                        <p class="lead animated" data-animate="fadeInUp" data-delay=".2"><strong>Lorem ipsum dolor sit
-                                amet,
-                                consectetur adipiscing elit, sed do eiusmod tempor incididunt.</strong></p>
+                        <p class="lead animated" data-animate="fadeInUp" data-delay=".2"><strong>
+                            Our goal is to build a truly decentralized product that houses the decentralized application world wide.
+                        </strong></p>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".3">Sed ut perspiciatis unde omnis iste
-                            natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                            quae
-                            ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                            ipsam voluptatem quia </p>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".3">
+                            The centralized exchange apps like huobi,coinbase etc, the decentralized exchange apps like uniswap DApp, dharma Dapp, trust wallet DApp, imtoken DApp, the trading analytical tools are integrated into KeeperDApp.
+                        </p>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".4">Neque porro quisquam est, qui
+                        {{-- <p class="animated" data-animate="fadeInUp" data-delay=".4">Neque porro quisquam est, qui
                             dolorem
                             ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                             tempora
-                            incidunt ut labore</p>
+                            incidunt ut labore</p> --}}
                     </div>
                 </div>
             </div>
@@ -557,38 +536,38 @@
                 data-delay=".3">
                 <div class="row no-gutters text-left text-lg-center justify-content-center">
                     <div class="col-lg">
-                        <div class="timeline-item timeline-done"><span class="timeline-date">2017 Q1</span>
+                        <div class="timeline-item timeline-done"><span class="timeline-date">July Q1</span>
                             <h6 class="timeline-title">Concept</h6>
                             <ul class="timeline-info">
-                                <li>Concept Generation</li>
-                                <li>Team Assemble</li>
+                                <li>project research</li>
+                                <li>gathering of ideas/developers</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg">
-                        <div class="timeline-item timeline-done"><span class="timeline-date">2017 Q2</span>
+                        <div class="timeline-item timeline-done"><span class="timeline-date">August</span>
                             <h6 class="timeline-title">Research</h6>
                             <ul class="timeline-info">
                                 <li>Proving the concept can work</li>
                                 <li>Strategic Plan</li>
-                                <li>White paper conpletion</li>
+                                <li>project and developments kick-off.</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg">
-                        <div class="timeline-item timeline-done"><span class="timeline-date">2018 Q1</span>
+                        <div class="timeline-item timeline-done"><span class="timeline-date">September</span>
                             <h6 class="timeline-title">Design</h6>
                             <ul class="timeline-info">
-                                <li>Platform design and technical demonstration</li>
-                                <li>Building the MVP</li>
+                                <li>our social media link to gain closure and growth of our community.</li>
+                                {{-- <li>Building the MVP</li> --}}
                             </ul>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg">
-                        <div class="timeline-item timeline-done"><span class="timeline-date">2018 Q2</span>
-                            <h6 class="timeline-title">Pre-Sale</h6>
+                        <div class="timeline-item timeline-done"><span class="timeline-date">October</span>
+                            <h6 class="timeline-title">AMA</h6>
                             <ul class="timeline-info">
-                                <li>Public financing &amp; Seed funding raised</li>
+                                <li>First &amp; Second AMA</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
@@ -597,30 +576,33 @@
             <div class="timeline-row timeline-row-even animated" data-animate="fadeInUp" data-delay=".4">
                 <div class="row no-gutters text-left text-lg-center justify-content-center flex-row-reverse">
                     <div class="col-lg">
-                        <div class="timeline-item timeline-current"><span class="timeline-date">2018 Q3</span>
-                            <h6 class="timeline-title">Alpha Test</h6>
+                        <div class="timeline-item timeline-current"><span class="timeline-date">November</span>
+                            <h6 class="timeline-title">Token Sale</h6>
                             <ul class="timeline-info">
-                                <li>In-house testing of functional</li>
-                                <li>Prototype published and linked to Ethereum blockchain with real-time scanning</li>
+                                <li>Private sale</li>
+                                <li>Public sale</li>
+                                <li>Listing of $Kprp on Uniswap</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">2018 Q4</span>
+                        <div class="timeline-item"><span class="timeline-date">December</span>
                             <h6 class="timeline-title">
-                                Token Sale</h6>
+                                Publicity</h6>
                             <ul class="timeline-info">
-                                <li>ICO Press Tour</li>
-                                <li>Open global sales of ICOblock token</li>
+                                <li>Lunching of our staking pool</li>
+                                <li>Listing of $Kprp on two(2) exchanges</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">2019 Q1</span>
+                        <div class="timeline-item"><span class="timeline-date">March Q1</span>
                             <h6 class="timeline-title">App
                                 Beta Test</h6>
                             <ul class="timeline-info">
                                 <li>Private closed beta</li>
+                                <li>ios Version</li>
+                                <li>android Version</li>
                                 <li>Open beta launched to public and improvement the app</li>
                             </ul>
                         </div>
@@ -631,7 +613,7 @@
                 data-delay=".5">
                 <div class="row no-gutters text-left text-lg-center justify-content-center">
                     <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">2019 Q2</span>
+                        <div class="timeline-item"><span class="timeline-date">April Q2</span>
                             <h6 class="timeline-title">
                                 Crowdfunding Integration</h6>
                             <ul class="timeline-info">
@@ -640,7 +622,7 @@
                             </ul>
                         </div>
                     </div><!-- .col -->
-                    <div class="col-lg">
+                    {{-- <div class="col-lg">
                         <div class="timeline-item"><span class="timeline-date">2019 Q3</span>
                             <h6 class="timeline-title">
                                 Community Benefits</h6>
@@ -649,8 +631,9 @@
                                 <li>US start retailer selection</li>
                             </ul>
                         </div>
-                    </div><!-- .col -->
-                    <div class="col-lg">
+                    </div> --}}
+                    <!-- .col -->
+                    {{-- <div class="col-lg">
                         <div class="timeline-item"><span class="timeline-date">2019 Q4</span>
                             <h6 class="timeline-title">
                                 Hardware things</h6>
@@ -659,7 +642,8 @@
                                 <li>Marketplace cooperative module</li>
                             </ul>
                         </div>
-                    </div><!-- .col -->
+                    </div> --}}
+                    <!-- .col -->
                     <div class="col-lg">
                         <div class="timeline-item"><span class="timeline-date">2020 Q1</span>
                             <h6 class="timeline-title">More
