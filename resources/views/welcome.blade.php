@@ -25,8 +25,8 @@
         <div id="particles-js" class="particles-container particles-js"></div><!-- Navbar -->
         <div class="navbar navbar-full navbar-expand-lg is-transparent" id="mainnav"><a class="navbar-brand animated"
                 data-animate="fadeInDown" data-delay=".65" href="index.html"><img class="logo logo-dark" alt="logo"
-                    src="{{ asset('images') }}/logo.png" srcset="{{ asset('images') }}/logo2x.png 2x"><img class="logo logo-light" alt="logo"
-                    src="{{ asset('images') }}/logo-full-white.png" srcset="{{ asset('images') }}/logo-full-white2x.png 2x"></a>
+                    src="{{ asset('images') }}/logo.png" srcset="{{ asset('images') }}/logo.png 2x"><img class="logo logo-light" alt="logo"
+                    src="{{ asset('images') }}/logo-full-white.png" srcset="{{ asset('images') }}/logo-full-white.png 2x"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"><span
                     class="navbar-toggler-icon"><span class="ti ti-align-justify"></span></span></button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
@@ -1018,7 +1018,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6 res-m-bttm"><a class="footer-brand" href="index.html"><img
                                 class="logo logo-light" alt="logo" src="{{ asset('images') }}/logo-full-white.png"
-                                srcset="{{ asset('images') }}/logo-full-white2x.png 2x"></a>
+                                srcset="{{ asset('images') }}/logo-full-white.png 2x"></a>
                     </div>
                     <div class="col-sm-6 text-sm-right"><span class="copyright-text">2020</span></div>
                 </div>
