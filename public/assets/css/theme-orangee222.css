@@ -1669,7 +1669,7 @@ a {
 .io-zinnia .btns a:not(.btn) {
   color: green }
   .io-zinnia .btns a:not(.btn):hover {
-    color: #fe4350; }
+    color: black }
 .io-zinnia .section-bg {
   background: #fff; }
 .io-zinnia .section-bg-alt {
@@ -1713,8 +1713,10 @@ a {
  }
   /* background-image: linear-gradient(to right, #ff6c3f 0%, #fe4350 100%); } */
   .io-zinnia .btn:before {
-    background-image: -webkit-linear-gradient(to right, #fe4350 0%, #ff6c3f 100%);
-    background-image: linear-gradient(to right, #fe4350 0%, #ff6c3f 100%); }
+    /* background-image: -webkit-linear-gradient(to right, #fe4350 0%, #ff6c3f 100%); */
+    background-image: linear-gradient(135deg, #49c967 0%, #196e2d 100%);
+    /* background-image: linear-gradient(to right, #fe4350 0%, #ff6c3f 100%);  */
+  }
   .io-zinnia .btn-outline {
     background: transparent;
     border-color: rgba(255, 255, 255, 0.4); }
@@ -1757,7 +1759,7 @@ a {
 .io-zinnia .site-header.has-fixed .btn-outline {
   color: #28a745;
   /* color: #fe4350; */
-  border-color: #c8d4ff }
+  border-color: #28a745 }
   .io-zinnia .site-header.has-fixed .btn-outline:after {
     background: #fff; }
   .io-zinnia .site-header.has-fixed .btn-outline:hover {
@@ -2026,7 +2028,7 @@ a {
       color: #4c5a77; }
 
 .service-icon:after {
-  border-color: #3f30b4c2}
+  border-color: green}
   /* border-color: rgba(254, 67, 80, 0.2); } */
 
 .widget-links li a {

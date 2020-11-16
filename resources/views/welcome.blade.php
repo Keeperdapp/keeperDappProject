@@ -13,7 +13,8 @@
     <link rel="shortcut icon" href="{{ asset('assets') }}/images/favicon.png"><!-- Site Title  -->
     <title>ICO Crypto - Bitcoin &amp;
         Cryptocurrency Landing Page Template</title><!-- Vendor Bundle CSS -->
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/vendor.bundlee222.css?ver=142"><!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{{ asset('assets') }}/css/vendor.bundlee222.css?ver=142">
+    <!-- Custom styles for this template -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/stylee222.css?ver=142">
     <link rel="stylesheet" href="{{ asset('assets') }}/css/theme-orangee222.css?ver=142" id="layoutstyle">
 </head>
@@ -23,10 +24,16 @@
     <header class="site-header is-sticky">
         <!-- Place Particle Js -->
         <div id="particles-js" class="particles-container particles-js"></div><!-- Navbar -->
-        <div class="navbar navbar-full navbar-expand-lg is-transparent" id="mainnav"><a class="navbar-brand animated"
-                data-animate="fadeInDown" data-delay=".65" href="index.html"><img class="logo logo-dark" alt="logo"
-                    src="{{ asset('images') }}/logo.png" srcset="{{ asset('images') }}/logo.png 2x"><img class="logo logo-light" alt="logo"
-                    src="{{ asset('images') }}/logo-full-white.png" srcset="{{ asset('images') }}/logo-full-white.png 2x"></a>
+        <div class="navbar navbar-full navbar-expand-lg is-transparent" id="mainnav">
+            <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="index.html">
+                <h4 class="logo logo-light">KeeperDApp</h4>
+                <h5 class="logo logo-dark" style="color:green">KeeperDApp</h5>
+
+                {{-- <img class="logo logo-dark" alt="logo" src="{{ asset('images') }}/logo.png"
+                    srcset="{{ asset('images') }}/logo.png 2x"> --}}
+                {{-- <img class="logo logo-light" alt="logo" src="{{ asset('images') }}/logo-full-white.png"
+                    srcset="{{ asset('images') }}/logo-full-white.png 2x">  --}}
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"><span
                     class="navbar-toggler-icon"><span class="ti ti-align-justify"></span></span></button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
@@ -42,10 +49,9 @@
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
                 </ul>
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link"
-                            href="#">JOIN PRE-SALE</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link"
-                            href="#">TRY ICO</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN PRE-SALE</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">TRY ICO</a></li>
                 </ul>
             </div>
         </div><!-- End Navbar -->
@@ -65,7 +71,8 @@
                                 <div class="gaps size-1x d-none d-md-block"></div>
                                 <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">Keeper aims to become
                                     the
-                                    leading decentralized application <br class="d-none d-sm-block"> to base template in crytocurrency worldwide</p>
+                                    leading decentralized application <br class="d-none d-sm-block"> to base template in
+                                    crytocurrency worldwide</p>
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
@@ -106,7 +113,8 @@
                                 <div class="presale-bar-percent" style="width:35%"></div>
                             </div>
                             <div class="presale-points d-flex justify-content-between">
-                                <span>15k Sold</span><span>75k Sold</span></div>
+                                <span>15k Sold</span><span>75k Sold</span>
+                            </div>
                         </div>
                     </div><!-- .col  -->
                 </div><!-- .row  -->
@@ -124,7 +132,9 @@
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">About Keeper</h2>
 
                         <p class="lead animated" data-animate="fadeInUp" data-delay=".2">
-                            Keeper.DApp Network is a decentralized Financial System that has an interoperability characteristic of integrating the crypto world Apps into one App which makes it easier for users to simultaneously manage, protect and navigate in the crypto space just by switching.
+                            Keeper.DApp Network is a decentralized Financial System that has an interoperability
+                            characteristic of integrating the crypto world Apps into one App which makes it easier for
+                            users to simultaneously manage, protect and navigate in the crypto space just by switching.
                         </p>
                     </div>
                 </div>
@@ -132,9 +142,9 @@
             <div class="row justify-content-center text-center">
                 <div class="col-md-8">
                     <div class="video-box-s3 animated" data-animate="fadeInUp" data-delay=".3"><img
-                            src="{{ asset('images') }}/zinnia/video-cover.png" alt="cover"><a
-                            href="#" class="play-btn-s3 video-play"><img
-                                src="{{ asset('images') }}/zinnia/play-icon.png" alt="icon"></a></div>
+                            src="{{ asset('images') }}/zinnia/video-cover.png" alt="cover"><a href="#"
+                            class="play-btn-s3 video-play"><img src="{{ asset('images') }}/zinnia/play-icon.png"
+                                alt="icon"></a></div>
                 </div>
             </div>
         </div>
@@ -154,14 +164,18 @@
                             Decentralize Platform</h2>
 
                         <p class="lead animated" data-animate="fadeInUp" data-delay=".2"><strong>
-                            Our goal is to build a truly decentralized product that houses the decentralized application world wide.
-                        </strong></p>
+                                Our goal is to build a truly decentralized product that houses the decentralized
+                                application world wide.
+                            </strong></p>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".3">
-                            The centralized exchange apps like huobi,coinbase etc, the decentralized exchange apps like uniswap DApp, dharma Dapp, trust wallet DApp, imtoken DApp, the trading analytical tools are integrated into KeeperDApp.
+                            The centralized exchange apps like huobi,coinbase etc, the decentralized exchange apps like
+                            uniswap DApp, dharma Dapp, trust wallet DApp, imtoken DApp, the trading analytical tools are
+                            integrated into KeeperDApp.
                         </p>
 
-                        {{-- <p class="animated" data-animate="fadeInUp" data-delay=".4">Neque porro quisquam est, qui
+                        {{-- <p class="animated" data-animate="fadeInUp" data-delay=".4">
+                            Neque porro quisquam est, qui
                             dolorem
                             ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                             tempora
@@ -354,7 +368,8 @@
                 <div class="tab-content animated" data-animate="fadeInUp" data-delay=".3">
                     <div class="tab-pane animate" id="tab-dist">
                         <div class="tkn-crt">
-                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-a.png" alt="chart"></div>
+                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-a.png"
+                                    alt="chart"></div>
                             <ul class="tkn-crt-lst">
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>60%</span></span><span
                                         class="tkn-crt-ttl">Token Sale Program</span></li>
@@ -373,7 +388,8 @@
                     </div><!-- End tab-pane -->
                     <div class="tab-pane animate active show" id="tab-fund">
                         <div class="tkn-crt">
-                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-b.png" alt="chart"></div>
+                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-b.png"
+                                    alt="chart"></div>
                             <ul class="tkn-crt-lst">
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>40%</span></span><span
                                         class="tkn-crt-ttl">Product Develoment</span></li>
@@ -465,8 +481,8 @@
                     <div class="row justify-content-between text-center text-lg-left">
                         <div class="col-xl-5 col-md-6">
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".4">
-                                <div class="service-icon mx-auto mx-lg-0"><img src="{{ asset('images') }}/zinnia/service-icon-a.png"
-                                        alt="icon"></div>
+                                <div class="service-icon mx-auto mx-lg-0"><img
+                                        src="{{ asset('images') }}/zinnia/service-icon-a.png" alt="icon"></div>
                                 <h5 class="service-title">Easy to Buy &amp; Sale Token</h5>
 
                                 <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm od tempor
@@ -475,8 +491,8 @@
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".5">
-                                <div class="service-icon mx-auto mx-lg-0"><img src="{{ asset('images') }}/zinnia/service-icon-b.png"
-                                        alt="icon"></div>
+                                <div class="service-icon mx-auto mx-lg-0"><img
+                                        src="{{ asset('images') }}/zinnia/service-icon-b.png" alt="icon"></div>
                                 <h5 class="service-title">Responsive Design</h5>
 
                                 <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm od tempor
@@ -485,8 +501,8 @@
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".6">
-                                <div class="service-icon mx-auto mx-lg-0"><img src="{{ asset('images') }}/zinnia/service-icon-c.png"
-                                        alt="icon"></div>
+                                <div class="service-icon mx-auto mx-lg-0"><img
+                                        src="{{ asset('images') }}/zinnia/service-icon-c.png" alt="icon"></div>
                                 <h5 class="service-title">Easy to Communicate</h5>
 
                                 <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm od tempor
@@ -495,8 +511,8 @@
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".7">
-                                <div class="service-icon mx-auto mx-lg-0"><img src="{{ asset('images') }}/zinnia/service-icon-d.png"
-                                        alt="icon"></div>
+                                <div class="service-icon mx-auto mx-lg-0"><img
+                                        src="{{ asset('images') }}/zinnia/service-icon-d.png" alt="icon"></div>
                                 <h5 class="service-title">Safe &amp; Secure</h5>
 
                                 <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm od tempor
@@ -559,7 +575,8 @@
                             <h6 class="timeline-title">Design</h6>
                             <ul class="timeline-info">
                                 <li>our social media link to gain closure and growth of our community.</li>
-                                {{-- <li>Building the MVP</li> --}}
+                                {{-- <li>Building the MVP</li>
+                                --}}
                             </ul>
                         </div>
                     </div><!-- .col -->
@@ -934,8 +951,7 @@
             </div><!-- .row -->
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <form id="contact-form" class="form-message text-center show-error-hint"
-                        action="#" method="post">
+                    <form id="contact-form" class="form-message text-center show-error-hint" action="#" method="post">
                         <div class="form-results"></div>
                         <div class="input-field animated" data-animate="fadeInUp" data-delay=".6"><input
                                 name="contact-name" type="text" class="input-line required"><label
@@ -1003,10 +1019,10 @@
                         <div class="widget-subsctibe">
                             <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed</p>
 
-                            <form id="subscribe-form" action="#"
-                                method="post" class="subscription-form subscription-form-sm"><input type="text"
-                                    name="youremail" class="input-round required email" placeholder="Enter mail"><input
-                                    type="text" class="d-none" name="form-anti-honeypot" value="">
+                            <form id="subscribe-form" action="#" method="post"
+                                class="subscription-form subscription-form-sm"><input type="text" name="youremail"
+                                    class="input-round required email" placeholder="Enter mail"><input type="text"
+                                    class="d-none" name="form-anti-honeypot" value="">
                                 <button type="submit" class="btn btn-plane"><i class="fas fa-paper-plane"></i></button>
                                 <div class="subscribe-results"></div>
                             </form>
