@@ -4427,7 +4427,7 @@ label.error {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: yellow;
+  border-top-color: red;
   /* border-top-color: #2b56f5; */
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite; }
@@ -10240,7 +10240,7 @@ label.error {
   .presale-status h5 {
     font-weight: 600; }
 .presale-bar {
-  padding: 6px;
+  padding: 2px;
   width: 100%;
   background: #fff;
   border-radius: 16px; }

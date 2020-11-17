@@ -44,7 +44,7 @@
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
                 </ul>
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN PRE-SALE</a>
+                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KDapp</a>
                     </li>
                     <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Download</a></li>
                 </ul>
@@ -71,9 +71,9 @@
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
-                                    <li><a href="#" class="btn btn-icon-s3">JOIN PRE-SALE <i
+                                    <li><a href="#" class="btn btn-icon-s3">JOIN KDapp               <i
                                                 class="fas fa-angle-double-right"></i></a></li>
-                                    <li><a href="#" class="btn btn-icon-s3">WHITE PAPER <i
+                                    <li><a href="#" class="btn btn-icon-s3">DOCUMENT <i
                                                 class="fas fa-angle-double-right"></i></a></li>
                                 </ul>
                             </div>
@@ -82,11 +82,8 @@
                 </div><!-- .banner-content  -->
             </div><!-- .container  -->
             <ul class="hr-social hr-social-mid animated" data-animate="fadeIn" data-delay="1.55">
-                <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
                 <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                <li><a href="#"><em class="fab fa-youtube"></em></a></li>
-                <li><a href="#"><em class="fab fa-telegram"></em></a></li>
-                <li><a href="#"><em class="fab fa-bandcamp"></em></a></li>
+                <li><a href="https://t.me/keeperDApp" target="_blank"><em class="fab fa-telegram"></em></a></li>
             </ul>
         </div><!-- End Banner/Slider -->
         <div class="presale-box animated" data-animate="fadeIn" data-delay="1.65">
@@ -94,8 +91,8 @@
                 <div class="row no-gutters justify-content-center">
                     <div class="col-xl-4 col-md-5">
                         <div class="presale-countdown">
-                            <h5>Pre-sale is Live Now</h5>
-                            <h6>Pre-Sale ends in</h6>
+                            <h5>KDapp is Live Now</h5>
+                            <h6>base for all decentralized app</h6>
 
                             <div class="token-countdown" data-date="2018/12/05"></div>
                         </div>
@@ -105,13 +102,15 @@
                             <h5>Pre Sale</h5>
 
                             <div class="presale-bar">
-                                <div class="presale-bar-percent" style="width:35%"></div>
+                                <div class="presale-bar-percent" style="width:15%"></div>
                             </div>
                             <div class="presale-points d-flex justify-content-between">
-                                <span>15k Sold</span><span>75k Sold</span>
+                                <span>Start</span><span>End</span>
+                                {{-- <span>15k Sold</span><span>75k Sold</span> --}}
                             </div>
                         </div>
-                    </div><!-- .col  -->
+                    </div>
+                    <!-- .col  -->
                 </div><!-- .row  -->
             </div><!-- .container  -->
         </div><!-- .presale-box  -->
@@ -178,7 +177,7 @@
             <div class="row justify-content-center text-center">
                 <div class="col-md-6 col-sm-8">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">ICO Problem &amp;
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Centralized application Problem &amp;
                             Solution</h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">At vero eos et accusamus et iusto
@@ -253,7 +252,7 @@
             <div class="row justify-content-center text-center">
                 <div class="col-md-6">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">ICO Tokens Details
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">KDapp Tokens Details
                         </h2>
                     </div>
                 </div>
@@ -269,8 +268,7 @@
                         </div>
                     </div><!-- .col -->
                     <div class="col-md">
-                        <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".3"><span>Soft Cap (Public
-                                ICO)</span>
+                        <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".3"><span>Soft Cap</span>
                             <h5>$4M</h5>
                         </div>
                     </div><!-- .col -->
@@ -377,20 +375,21 @@
                             <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-b.png"
                                     alt="chart"></div>
                             <ul class="tkn-crt-lst">
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>40%</span></span><span
-                                        class="tkn-crt-ttl">Product Develoment</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>4%</span></span><span
+                                        class="tkn-crt-ttl">Partners</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>12%</span></span><span
-                                        class="tkn-crt-ttl">Business Development</span></li>
+                                        class="tkn-crt-ttl">Team/Keeper's Advisors and future employees</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>20%</span></span><span
-                                        class="tkn-crt-ttl">Marketing</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>10%</span></span><span
-                                        class="tkn-crt-ttl">Legal &amp; Regulation</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>6%</span></span><span
-                                        class="tkn-crt-ttl">Partner/Investor</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>8%</span></span><span
-                                        class="tkn-crt-ttl">Operational</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt seven"><span>4%</span></span><span
-                                        class="tkn-crt-ttl">Contingency</span></li>
+                                        class="tkn-crt-ttl">Staking reward</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>20%</span></span><span
+                                        class="tkn-crt-ttl">Circulating Supply</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>14 %</span></span><span
+                                        class="tkn-crt-ttl">Presale/Public</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>40%</span></span><span
+                                        class="tkn-crt-ttl">Locked up supply</span></li>
+                                <li class="tkn-crt-itm">
+                                    {{-- <span class="tkn-crt-prcnt seven"><span>4                                                                                                                                                                                                                %</span></span><span --}}
+                                        class="tkn-crt-ttl">TOTAL SUPPLY</span></li>
                             </ul>
                         </div>
                     </div><!-- End tab-pane -->
@@ -418,17 +417,16 @@
                     </div>
                     <ul class="document-list">
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="#"
-                                class="btn btn-outline">White Paper</a>
+                                class="btn btn-outline">KDapp document</a>
                         </li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
+                        {{-- <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
                                 class="btn btn-outline">One Pager</a>
-                        </li>
+                        </li> --}}
                         <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="#"
                                 class="btn btn-outline">Privacy
                                 &amp; Policy</a></li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="#"
-                                class="btn btn-outline">Terms
-                                of Coin Sale</a></li>
+                                class="btn btn-outline">Terms &amp; conditions</a></li>
                     </ul>
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -503,7 +501,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-5 order-first order-lg-last res-m-bttm">
                     <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img
-                            src="{{ asset('images') }}/zinnia/KPHome.jpg" alt="app-screen"></div>
+                            src="{{ asset('images') }}/zinnia/KPMenu.jpg" alt="app-screen"></div>
                 </div><!-- .col -->
             </div><!-- .row -->
         </div><!-- .container -->
@@ -517,8 +515,7 @@
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Roadmap</h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Our team working hardly to make
-                            archive
-                            lorem ipsum dolor sit amet, consectetur amet, consectetur adipiscing elit.</p>
+                            archive of a great decentralized network and a platform that comprises other decentralized applications</p>
                     </div>
                 </div>
             </div>
@@ -636,8 +633,7 @@
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Frequently asked
                             questions</h2>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Below we’ve provided a bit of ICO,
-                            ICO
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Below we’ve provided a bit of KDapp
                             Token, cryptocurrencies, and few others. If you have any other questions, please get in
                             touch
                             using the contact form below.</p>
@@ -652,8 +648,7 @@
                             data-delay=".1">
                             <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-1">General</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-2">Pre-ICO &amp;
-                                    ICO</a>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-2">KDapp Related</a>
                             </li>
                         </ul>
                         <div class="gaps size-1x"></div><!-- Tab panes -->
@@ -695,7 +690,7 @@
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
                                                     data-target="#collapse-1-3">How can I participate in
-                                                    the ICO Token sale?<span class="plus-minus"><span
+                                                    the KDapp Token sale?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a>
                                             </h5>
                                         </div>
@@ -711,7 +706,7 @@
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
                                                     data-target="#collapse-1-4">How do I benefit from
-                                                    the ICO Token?<span class="plus-minus"><span
+                                                    the KDapp Token?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-1-4" class="collapse" data-parent="#accordion-1">
@@ -771,7 +766,7 @@
                                         </div>
                                         <div id="collapse-2-4" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>An ICO pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
+                                                <p>An KDapp pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
                                             </div>
                                         </div>
                                     </div>
@@ -791,7 +786,7 @@
             <div class="row text-center">
                 <div class="col">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact ICO CRYPTO
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact KDapp CRYPTO
                         </h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Any question? Reach out to us and
@@ -859,7 +854,7 @@
                         <h5 class="widget-title">RESOURCES</h5>
                         <ul class="widget-links">
                             <li><a href="#">Watch Demo</a></li>
-                            <li><a href="#">Whitepaper</a></li>
+                            {{-- <li><a href="#">Whitepaper</a></li> --}}
                             <li><a href="#">Intigration &amp; API</a></li>
                             <li><a href="#">iOS &amp; Android Apps</a></li>
                             <li><a href="#">Privacy &amp; policy</a></li>
