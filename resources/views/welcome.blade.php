@@ -25,7 +25,7 @@
         <!-- Place Particle Js -->
         <div id="particles-js" class="particles-container particles-js"></div><!-- Navbar -->
         <div class="navbar navbar-full navbar-expand-lg is-transparent" id="mainnav">
-            <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="index.html">
+            <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="{{ url('/') }}">
                 <h4 class="logo logo-light">KeeperDApp</h4>
                 <h5 class="logo logo-dark" style="color:green">KeeperDApp</h5>
             </a>
