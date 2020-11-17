@@ -598,7 +598,8 @@ hr, .hr {
   text-transform: capitalize; }
 
 .section-pad {
-  padding-top: 120px;
+  padding-top: 60px;
+  /* padding-top: 120px; */
   padding-bottom: 120px; }
   .section-pad-xs {
     padding-top: 20px;

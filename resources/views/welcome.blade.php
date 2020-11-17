@@ -9,10 +9,10 @@
         content="ICO Crypto is a modern and elegant landing page, created for ICO Agencies and digital crypto currency investment website.">
     <!-- Fav Icon -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link rel="shortcut icon" href="{{ asset('assets') }}/images/favicon.png"><!-- Site Title  -->
-    <title>ICO Crypto - Bitcoin &amp;
-        Cryptocurrency Landing Page Template</title><!-- Vendor Bundle CSS -->
+    <link rel="shortcut icon" href="{{ asset('images') }}/favicon.jpeg">
+    <!-- Site Title  -->
+    <title>KeeperDApp Crypto - Bitcoin &amp;
+        Cryptocurrency</title><!-- Vendor Bundle CSS -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/vendor.bundlee222.css?ver=142">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/stylee222.css?ver=142">
@@ -28,11 +28,6 @@
             <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="index.html">
                 <h4 class="logo logo-light">KeeperDApp</h4>
                 <h5 class="logo logo-dark" style="color:green">KeeperDApp</h5>
-
-                {{-- <img class="logo logo-dark" alt="logo" src="{{ asset('images') }}/logo.png"
-                    srcset="{{ asset('images') }}/logo.png 2x"> --}}
-                {{-- <img class="logo logo-light" alt="logo" src="{{ asset('images') }}/logo-full-white.png"
-                    srcset="{{ asset('images') }}/logo-full-white.png 2x">  --}}
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"><span
                     class="navbar-toggler-icon"><span class="ti ti-align-justify"></span></span></button>
@@ -51,7 +46,7 @@
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
                     <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN PRE-SALE</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">TRY ICO</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Download</a></li>
                 </ul>
             </div>
         </div><!-- End Navbar -->
@@ -125,9 +120,9 @@
     <div class="gaps size-3x"></div><!-- End Header -->
     <!-- Start Section -->
     <div class="section section-pad about-section no-pb section-bg" id="about">
-        <div class="container">
+        <div class="container mt-3">
             <div class="row justify-content-center text-center">
-                <div class="col-md-10">
+                <div class="col-md-7">
                     <div class="section-head-s7">
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">About Keeper</h2>
 
@@ -138,13 +133,11 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-md-8">
+                <div class="col-md-5">
                     <div class="video-box-s3 animated" data-animate="fadeInUp" data-delay=".3"><img
-                            src="{{ asset('images') }}/zinnia/video-cover.png" alt="cover"><a href="#"
-                            class="play-btn-s3 video-play"><img src="{{ asset('images') }}/zinnia/play-icon.png"
-                                alt="icon"></a></div>
+                            src="{{ asset('images') }}/zinnia/KPHome.jpg" alt="cover">
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -173,13 +166,6 @@
                             uniswap DApp, dharma Dapp, trust wallet DApp, imtoken DApp, the trading analytical tools are
                             integrated into KeeperDApp.
                         </p>
-
-                        {{-- <p class="animated" data-animate="fadeInUp" data-delay=".4">
-                            Neque porro quisquam est, qui
-                            dolorem
-                            ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-                            tempora
-                            incidunt ut labore</p> --}}
                     </div>
                 </div>
             </div>
@@ -428,26 +414,14 @@
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".3">Here is our full documents that help
                             you
-                            to understand about us. And lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            to understand about us.</p>
                     </div>
                     <ul class="document-list">
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="#"
-                                class="btn btn-outline btn-dropdown" data-toggle="dropdown">White Paper
-                                <i class="fas fa-caret-down"></i></a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a href="#">English</a></li>
-                                <li><a href="#">Dutch</a></li>
-                                <li><a href="#">France</a></li>
-                            </ul>
+                                class="btn btn-outline">White Paper</a>
                         </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
-                                class="btn btn-outline btn-dropdown" data-toggle="dropdown">One Pager <i
-                                    class="fas fa-caret-down"></i></a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a href="#">English</a></li>
-                                <li><a href="#">Dutch</a></li>
-                                <li><a href="#">France</a></li>
-                            </ul>
+                                class="btn btn-outline">One Pager</a>
                         </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="#"
                                 class="btn btn-outline">Privacy
@@ -470,9 +444,10 @@
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Our Technology
                             Services</h2>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">At vero eos et accusamus et iusto
-                            odio
-                            dignissimos ducimus qui blan ditiis praes entium volup tatum deleniti.</p>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">At KeeperDApp, we have implemented a
+                            base for all decentralized application
+                            with various benefits for our costumers.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -485,8 +460,8 @@
                                         src="{{ asset('images') }}/zinnia/service-icon-a.png" alt="icon"></div>
                                 <h5 class="service-title">Easy to Buy &amp; Sale Token</h5>
 
-                                <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm od tempor
-                                    incididunt.</p>
+                                <p>This is made very easy for you to buy and sell token to different decentralized
+                                    application networks.</p>
                             </div>
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
@@ -495,8 +470,7 @@
                                         src="{{ asset('images') }}/zinnia/service-icon-b.png" alt="icon"></div>
                                 <h5 class="service-title">Responsive Design</h5>
 
-                                <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm od tempor
-                                    incididunt.</p>
+                                <p>A very good design layout for easy management of various tokens.</p>
                             </div>
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
@@ -505,8 +479,8 @@
                                         src="{{ asset('images') }}/zinnia/service-icon-c.png" alt="icon"></div>
                                 <h5 class="service-title">Easy to Communicate</h5>
 
-                                <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm od tempor
-                                    incididunt.</p>
+                                <p>Communication is very easy and reliable when it comes to keeperDApp.
+                                    bringing you to a live chat with our customers services</p>
                             </div>
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
@@ -515,8 +489,8 @@
                                         src="{{ asset('images') }}/zinnia/service-icon-d.png" alt="icon"></div>
                                 <h5 class="service-title">Safe &amp; Secure</h5>
 
-                                <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm od tempor
-                                    incididunt.</p>
+                                <p>Safe and security is important, keeperDApp makes sure your transactions and other
+                                    related decentralized request are decrypted to enforce secure pipeline</p>
                             </div>
                         </div><!-- .col -->
                     </div><!-- .row -->
@@ -529,7 +503,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-5 order-first order-lg-last res-m-bttm">
                     <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img
-                            src="{{ asset('images') }}/zinnia/app-screen.png" alt="app-screen"></div>
+                            src="{{ asset('images') }}/zinnia/KPHome.jpg" alt="app-screen"></div>
                 </div><!-- .col -->
             </div><!-- .row -->
         </div><!-- .container -->
@@ -575,8 +549,6 @@
                             <h6 class="timeline-title">Design</h6>
                             <ul class="timeline-info">
                                 <li>our social media link to gain closure and growth of our community.</li>
-                                {{-- <li>Building the MVP</li>
-                                --}}
                             </ul>
                         </div>
                     </div><!-- .col -->
@@ -639,30 +611,8 @@
                             </ul>
                         </div>
                     </div><!-- .col -->
-                    {{-- <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">2019 Q3</span>
-                            <h6 class="timeline-title">
-                                Community Benefits</h6>
-                            <ul class="timeline-info">
-                                <li>Establishing global user base</li>
-                                <li>US start retailer selection</li>
-                            </ul>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                    {{-- <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">2019 Q4</span>
-                            <h6 class="timeline-title">
-                                Hardware things</h6>
-                            <ul class="timeline-info">
-                                <li>Integration of third party controllers</li>
-                                <li>Marketplace cooperative module</li>
-                            </ul>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
                     <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">2020 Q1</span>
+                        <div class="timeline-item"><span class="timeline-date">2020 Q2</span>
                             <h6 class="timeline-title">More
                                 Operational</h6>
                             <ul class="timeline-info">
@@ -705,7 +655,6 @@
                             <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-2">Pre-ICO &amp;
                                     ICO</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-3">Tokens</a></li>
                         </ul>
                         <div class="gaps size-1x"></div><!-- Tab panes -->
                         <div class="tab-content animated" data-animate="fadeInUp" data-delay=".2">
@@ -714,15 +663,18 @@
                                     <div class="card active">
                                         <div class="card-header">
                                             <h5><a data-toggle="collapse" data-target="#collapse-1-1">What
-                                                    is ICO Crypto?<span class="plus-minus"><span
+                                                    is KeeperDApp?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-1-1" class="collapse show" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique blockchain platform; that is
-                                                    secure, smart and easy-to-use platform, and completely disrupting
-                                                    the way
-                                                    businesses raise capital, and the way investors buy and sell. </p>
+                                                <p>Keeper.DApp Network is a decentralized Financial System that has an
+                                                    interoperability characteristic
+                                                    of integrating the crypto world Apps into one Decentralized App
+                                                    which makes it easier for users to simultaneously manage,
+                                                    protect and navigate in the crypto space just by switching.
+                                                    This can easily be put as a decentralized App that combines
+                                                    the crypto world Apps in one place for easy access </p>
                                             </div>
                                         </div>
                                     </div>
@@ -735,10 +687,7 @@
                                         </div>
                                         <div id="collapse-1-2" class="collapse" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
+                                                <p>You can purchase our erc 20 token with ETH(0.05ETH = 1 KPRP) </p>
                                             </div>
                                         </div>
                                     </div>
@@ -752,10 +701,9 @@
                                         </div>
                                         <div id="collapse-1-3" class="collapse" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
+                                                <p>Connect your wallet
+                                                    Enter the amount of ETH you want to deposit.
+                                                    Click the purchase button</p>
                                             </div>
                                         </div>
                                     </div>
@@ -768,10 +716,14 @@
                                         </div>
                                         <div id="collapse-1-4" class="collapse" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
+                                                <p>Staking rewards :Staking is a feature in our system which was
+                                                    created to help our investors and community at large to earn and win
+                                                    tokens.
+                                                    it's fast, cheap and very easy to access. We believe in the world of
+                                                    scalability
+                                                    and will be very happy to receive proposals from the community to
+                                                    create more staking pools to enable members to earn more tokens like
+                                                    BNB, DIA to mention a few.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -781,138 +733,51 @@
                                 <div class="accordion-s2" id="accordion-2">
                                     <div class="card active">
                                         <div class="card-header">
-                                            <h5><a data-toggle="collapse" data-target="#collapse-2-1">Which
-                                                    of us ever undertakes laborious?<span class="plus-minus"><span
+                                            <h5><a data-toggle="collapse" data-target="#collapse-2-1">When is this
+                                                    starting ?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-2-1" class="collapse show" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
+                                                <p>The pre-sales should take place on or before 30th Nov as the team is
+                                                    working tirelessly to achieve the best of results benefitting to our
+                                                    community.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
-                                                    data-target="#collapse-2-2">Who do not know how to
-                                                    pursue rationally?<span class="plus-minus"><span
+                                                    data-target="#collapse-2-2">I don't know how to join the
+                                                    pre-sale<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a>
                                             </h5>
                                         </div>
                                         <div id="collapse-2-2" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
+                                                <p>You can participate in our pre-sales from the Keeper.DApp web
+                                                    <br>OR
+                                                    Send ETH directly to the contract address (Be sure to set a gas
+                                                    limit of at least 100,000).</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
-                                                    data-target="#collapse-2-4">Their separate existence
-                                                    is a myth?<span class="plus-minus"><span
+                                                    data-target="#collapse-2-4">What is pre-sale ?<span
+                                                        class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-2-4" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse"
-                                                    data-target="#collapse-2-3">Pityful a rethoric
-                                                    question ran over her cheek?<span class="plus-minus"><span
-                                                            class="ti ti-angle-up"></span></span></a></h5>
-                                        </div>
-                                        <div id="collapse-2-3" class="collapse" data-parent="#accordion-2">
-                                            <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
+                                                <p>An ICO pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div><!-- End tab-pane -->
-                            <div class="tab-pane fade" id="tab-3">
-                                <div class="accordion-s2" id="accordion-3">
-                                    <div class="card active">
-                                        <div class="card-header">
-                                            <h5><a data-toggle="collapse" data-target="#collapse-3-1">When
-                                                    she reached the first hills?<span class="plus-minus"><span
-                                                            class="ti ti-angle-up"></span></span></a></h5>
-                                        </div>
-                                        <div id="collapse-3-1" class="collapse show" data-parent="#accordion-3">
-                                            <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse"
-                                                    data-target="#collapse-3-2">Big Oxmox advised her
-                                                    not to do?<span class="plus-minus"><span
-                                                            class="ti ti-angle-up"></span></span></a></h5>
-                                        </div>
-                                        <div id="collapse-3-2" class="collapse" data-parent="#accordion-3">
-                                            <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse"
-                                                    data-target="#collapse-3-3">Which roasted parts of
-                                                    sentences fly into your mouth?<span class="plus-minus"><span
-                                                            class="ti ti-angle-up"></span></span></a></h5>
-                                        </div>
-                                        <div id="collapse-3-3" class="collapse" data-parent="#accordion-3">
-                                            <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse"
-                                                    data-target="#collapse-3-4">Vokalia and Consonantia,
-                                                    there live?<span class="plus-minus"><span
-                                                            class="ti ti-angle-up"></span></span></a>
-                                            </h5>
-                                        </div>
-                                        <div id="collapse-3-4" class="collapse" data-parent="#accordion-3">
-                                            <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart
-                                                    and easy-to-use platform, and completely disrupting the way
-                                                    businesses raise
-                                                    capital.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- .tab-pane -->
+                            <!-- .tab-pane -->
                         </div><!-- .tab-content -->
                     </div><!-- .tab-custom -->
                 </div><!-- .col -->
@@ -945,7 +810,8 @@
                                 class="fa fa-envelope"></em><span>info@yourcompany.com</span>
                         </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".5"><em
-                                class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
+                                class="fa fa-paper-plane"></em><span><a href="https://t.me/keeperDApp">Join us on
+                                    Telegram</a></span></li>
                     </ul>
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -1017,7 +883,8 @@
                         <h5 class="widget-title widget-title-ncap">NewsLetter</h5>
 
                         <div class="widget-subsctibe">
-                            <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed</p>
+                            Let's keep in touch with you
+                            </p>
 
                             <form id="subscribe-form" action="#" method="post"
                                 class="subscription-form subscription-form-sm"><input type="text" name="youremail"
@@ -1032,11 +899,9 @@
             </div><!-- .row -->
             <div class="footer-bottom">
                 <div class="row align-items-center">
-                    <div class="col-sm-6 res-m-bttm"><a class="footer-brand" href="index.html"><img
-                                class="logo logo-light" alt="logo" src="{{ asset('images') }}/logo-full-white.png"
-                                srcset="{{ asset('images') }}/logo-full-white.png 2x"></a>
+                    <div class="col-sm-6 res-m-bttm">
+                        <h4 class="logo logo-light">KeeperDApp</h4>
                     </div>
-                    <div class="col-sm-6 text-sm-right"><span class="copyright-text">2020</span></div>
                 </div>
             </div>
         </div><!-- .container -->
