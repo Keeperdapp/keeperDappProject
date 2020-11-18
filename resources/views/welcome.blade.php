@@ -388,7 +388,7 @@
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>40%</span></span><span
                                         class="tkn-crt-ttl">Locked up supply</span></li>
                                 <li class="tkn-crt-itm">
-                                    <span class="tkn-crt-prcnt seven"><span>                                                                                                                                                                                                                %</span></span><span
+                                    <span class="tkn-crt-prcnt seven"><span>150,000                                                                                                                                                                                                              %</span></span><span
                                         class="tkn-crt-ttl">TOTAL SUPPLY</span></li>
                             </ul>
                         </div>
