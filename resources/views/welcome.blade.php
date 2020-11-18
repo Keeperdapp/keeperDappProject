@@ -9,10 +9,11 @@
         content="ICO Crypto is a modern and elegant landing page, created for ICO Agencies and digital crypto currency investment website.">
     <!-- Fav Icon -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" href="{{ asset('images') }}/favicon.jpeg">
+    <link rel="shortcut icon" href="{{ asset('images') }}/Keeperlogo.png">
     <!-- Site Title  -->
     <title>KeeperDApp Crypto - Bitcoin &amp;
-        Cryptocurrency</title><!-- Vendor Bundle CSS -->
+        Cryptocurrency</title>
+    <!-- Vendor Bundle CSS -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/vendor.bundlee222.css?ver=142">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/stylee222.css?ver=142">
@@ -44,7 +45,7 @@
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
                 </ul>
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KDapp</a>
+                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KRPP</a>
                     </li>
                     <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Download</a></li>
                 </ul>
@@ -71,7 +72,7 @@
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
-                                    <li><a href="#" class="btn btn-icon-s3">JOIN KDapp               <i
+                                    <li><a href="#" class="btn btn-icon-s3">JOIN KRPP               <i
                                                 class="fas fa-angle-double-right"></i></a></li>
                                     <li><a href="#" class="btn btn-icon-s3">DOCUMENT <i
                                                 class="fas fa-angle-double-right"></i></a></li>
@@ -91,7 +92,7 @@
                 <div class="row no-gutters justify-content-center">
                     <div class="col-xl-4 col-md-5">
                         <div class="presale-countdown">
-                            <h5>KDapp is Live Now</h5>
+                            <h5>KRPP is Live Now</h5>
                             <h6>base for all decentralized app</h6>
 
                             <div class="token-countdown" data-date="2018/12/05"></div>
@@ -247,86 +248,101 @@
         </div>
     </div><!-- End Section -->
     <!-- Start Section -->
-    <div class="section section-pad token-sale-section section-bg-zinnia" id="tokenSale">
-        <div class="container">
+    {{-- <div class="section section-pad token-sale-section section-bg-zinnia" id="tokenSale"> --}}
+        {{-- <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-md-6">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">KDapp Tokens Details
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">KRPP Tokens Details
                         </h2>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="tokdis-list">
-                <div class="row text-center text-lg-left">
-                    <div class="col-md">
+        </div> --}}
+        {{-- <div class="container"> --}}
+            {{-- <div class="tokdis-list"> --}}
+                {{-- <div class="row text-center text-lg-left"> --}}
+                    {{-- <div class="col-md">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".2">
                             <span>Tokens Offered</span>
                             <h5>20M</h5>
                         </div>
-                    </div><!-- .col -->
-                    <div class="col-md">
+                    </div> --}}
+                    <!-- .col -->
+                    {{-- <div class="col-md">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".3"><span>Soft Cap</span>
                             <h5>$4M</h5>
                         </div>
-                    </div><!-- .col -->
-                    <div class="col-md">
+                    </div> --}}
+                    <!-- .col -->
+                    {{-- <div class="col-md">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".4"><span>Hard Cap</span>
                             <h5>
                                 20 million</h5>
                         </div>
-                    </div><!-- .col -->
-                    <div class="col-lg-4">
+                    </div> --}}
+                    <!-- .col -->
+                    {{-- <div class="col-lg-4">
                         <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".5">
                             <span>Tokens Distributed</span>
                             <h5>30 days after token sale ends</h5>
                         </div>
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .tokdis-list -->
-        </div><!-- .container -->
-        <div class="gaps size-2x d-none d-md-block"></div>
-        <div class="gaps size-2x"></div>
-        <div class="toktmln-list">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg">
+                    </div> --}}
+                    <!-- .col -->
+                {{-- </div> --}}
+                <!-- .row -->
+            {{-- </div> --}}
+            <!-- .tokdis-list -->
+        {{-- </div> --}}
+        <!-- .container -->
+        {{-- <div class="gaps size-2x d-none d-md-block"></div>
+        <div class="gaps size-2x"></div> --}}
+        {{-- <div class="toktmln-list"> --}}
+            {{-- <div class="container"> --}}
+                {{-- <div class="row"> --}}
+                    {{-- <div class="col-lg">
                         <div class="toktmln-item animated" data-animate="fadeInUp" data-delay=".6">
                             <div><span>Token Sale I</span><span>January 15- February 15</span></div>
                             <div><span>67% Bonus</span><span>$0.354344/token</span></div>
                         </div>
-                    </div><!-- .col -->
-                    <div class="col-lg">
+                    </div> --}}
+                    <!-- .col -->
+                    {{-- <div class="col-lg">
                         <div class="toktmln-item animated" data-animate="fadeInUp" data-delay=".7">
                             <div><span>Token Sale II</span><span>March 01 - March 15</span></div>
                             <div><span>40% Bonus</span><span>$0.354344/token</span></div>
                         </div>
-                    </div><!-- .col -->
-                    <div class="col-lg">
+                    </div> --}}
+                    <!-- .col -->
+                    {{-- <div class="col-lg">
                         <div class="toktmln-item animated" data-animate="fadeInUp" data-delay=".8">
                             <div><span>Token Sale III</span><span>March 25- April 15</span></div>
                             <div><span>20% Bonus</span><span>$0.354344/token</span></div>
                         </div>
-                    </div><!-- .col -->
-                    <div class="col-lg">
+                    </div> --}}
+                    <!-- .col -->
+                    {{-- <div class="col-lg">
                         <div class="toktmln-item animated" data-animate="fadeInUp" data-delay=".9">
                             <div><span>Token Sale VI</span><span>April 20- May 20</span></div>
                             <div><span>50% Bonus</span><span>$0.304344/token</span></div>
                         </div>
-                    </div><!-- .col -->
-                    <div class="col-lg">
+                    </div> --}}
+                    <!-- .col -->
+                    {{-- <div class="col-lg">
                         <div class="toktmln-item animated" data-animate="fadeInUp" data-delay="1">
                             <div><span>Token Sale V</span><span>June 01 - July 30</span></div>
                             <div><span>30% Bonus</span><span>$0.354344/token</span></div>
                         </div>
                         <div></div>
-                    </div><!-- .col -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </div><!-- .toktmln -->
-    </div>
+                    </div> --}}
+                    <!-- .col -->
+                {{-- </div> --}}
+                <!-- .row -->
+            {{-- </div> --}}
+            <!-- .container -->
+        {{-- </div> --}}
+        <!-- .toktmln -->
+    {{-- </div> --}}
     <!-- End Section -->
     <!-- Start Section -->
     <div class="section section-pad token-alocate-section section-bg" id="tokenAlocate">
@@ -356,17 +372,19 @@
                                     alt="chart"></div>
                             <ul class="tkn-crt-lst">
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>60%</span></span><span
-                                        class="tkn-crt-ttl">Token Sale Program</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>8%</span></span><span
-                                        class="tkn-crt-ttl">Reserve Fund</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>15%</span></span><span
-                                        class="tkn-crt-ttl">Team and Founders</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>4%</span></span><span
-                                        class="tkn-crt-ttl">Board Advisors</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>7%</span></span><span
-                                        class="tkn-crt-ttl">Ecosystem Development</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>6%</span></span><span
-                                        class="tkn-crt-ttl">Marketing and Bounty</span></li>
+                                        class="tkn-crt-ttl">Total supply</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>40%</span></span><span
+                                        class="tkn-crt-ttl">Locked up supply</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>14%</span></span><span
+                                        class="tkn-crt-ttl">Pre sale / Public sale</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>20%</span></span><span
+                                        class="tkn-crt-ttl">Circulating supply</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>10%</span></span><span
+                                        class="tkn-crt-ttl">Stacking reward/span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>4%</span></span><span
+                                        class="tkn-crt-ttl">Partners</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>5%</span></span><span
+                                        class="tkn-crt-ttl">Bounty</span></li>
                             </ul>
                         </div>
                     </div><!-- End tab-pane -->
@@ -417,7 +435,7 @@
                     </div>
                     <ul class="document-list">
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="#"
-                                class="btn btn-outline">KDapp document</a>
+                                class="btn btn-outline">KRPP document</a>
                         </li>
                         {{-- <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
                                 class="btn btn-outline">One Pager</a>
@@ -494,8 +512,8 @@
                     </div><!-- .row -->
                     <ul class="btns text-center text-lg-left animated" data-animate="fadeInUp" data-delay=".8">
                         <li><a href="#" class="btn btn-sm">Download Now</a></li>
-                        <li><a href="#"><em class="fab fa-apple"></em></a><a href="#"><em
-                                    class="fab fa-android"></em></a><a href="#"><em class="fab fa-windows"></em></a>
+                        <li><a href="#"><em class="fab fa-apple"></em></a>
+                            <a href="#"><em class="fab fa-android"></em></a>
                         </li>
                     </ul>
                 </div><!-- .col -->
@@ -633,7 +651,7 @@
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Frequently asked
                             questions</h2>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Below we’ve provided a bit of KDapp
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Below we’ve provided a bit of KRPP
                             Token, cryptocurrencies, and few others. If you have any other questions, please get in
                             touch
                             using the contact form below.</p>
@@ -648,7 +666,7 @@
                             data-delay=".1">
                             <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-1">General</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-2">KDapp Related</a>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-2">KRPP Related</a>
                             </li>
                         </ul>
                         <div class="gaps size-1x"></div><!-- Tab panes -->
@@ -690,7 +708,7 @@
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
                                                     data-target="#collapse-1-3">How can I participate in
-                                                    the KDapp Token sale?<span class="plus-minus"><span
+                                                    the KRPP Token sale?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a>
                                             </h5>
                                         </div>
@@ -706,7 +724,7 @@
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
                                                     data-target="#collapse-1-4">How do I benefit from
-                                                    the KDapp Token?<span class="plus-minus"><span
+                                                    the KRPP Token?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-1-4" class="collapse" data-parent="#accordion-1">
@@ -766,7 +784,7 @@
                                         </div>
                                         <div id="collapse-2-4" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>An KDapp pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
+                                                <p>An KRPP pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
                                             </div>
                                         </div>
                                     </div>
@@ -786,7 +804,7 @@
             <div class="row text-center">
                 <div class="col">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact KDapp CRYPTO
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact KRPP CRYPTO
                         </h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Any question? Reach out to us and
