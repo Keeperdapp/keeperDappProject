@@ -35,9 +35,9 @@
                 <ul class="navbar-nav animated remove-animation" data-animate="fadeInDown" data-delay=".75">
                     <li class="nav-item"><a class="nav-link menu-link" href="#about">About<span
                                 class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#why">Why</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#benifits">Benifits</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#tokenSale">Presale</a></li>
+                    {{-- <li class="nav-item"><a class="nav-link menu-link" href="#why">Why</a></li> --}}
+                    <li class="nav-item"><a class="nav-link menu-link" href="#tokenAlocate">Presale</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#benefit">Benefit</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Roadmap</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#faq">Faqs</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
@@ -269,7 +269,7 @@
         </div><!-- .container -->
     </div><!-- End Section -->
     <!-- Start Section -->
-    <div class="section section-pad services-section section-bg" id="services">
+    <div class="section section-pad services-section section-bg" id="benefit">
         <div class="ui-shape ui-shape-s4"></div>
         <div class="container">
             <div class="row justify-content-center text-center">
