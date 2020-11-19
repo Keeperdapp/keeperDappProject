@@ -60,8 +60,8 @@
                         <div class="col-sm-10 col-md-12 col-lg-10">
                             <div class="header-txt tab-center mobile-center">
                                 <h1 class="animated" data-animate="fadeInUp" data-delay="1.25">The World’s
-                                    1<sup>st</sup> Platform That Brings <br class="d-none d-xl-block"> All
-                                    Decentralized Applications Together
+                                    1<sup>st</sup> Platform That Brings <br class="d-none d-xl-block">
+                                    All cryptocurrency trading applications together.
                                 </h1>
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
