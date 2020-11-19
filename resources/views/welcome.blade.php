@@ -33,11 +33,11 @@
                     class="navbar-toggler-icon"><span class="ti ti-align-justify"></span></span></button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
                 <ul class="navbar-nav animated remove-animation" data-animate="fadeInDown" data-delay=".75">
-                    <li class="nav-item"><a class="nav-link menu-link" href="#about">About<span
+                    <li class="nav-item"><a class="nav-link menu-link" href="#about">Introduction<span
                                 class="sr-only">(current)</span></a></li>
-                    {{-- <li class="nav-item"><a class="nav-link menu-link" href="#why">Why</a></li> --}}
+                    <li class="nav-item"><a class="nav-link menu-link" href="#why">Why</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#benefit">Features</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#tokenAlocate">Presale</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#benefit">Benefit</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Roadmap</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#faq">Faqs</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
@@ -69,6 +69,7 @@
                                     crytocurrency worldwide</p>
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
+
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
                                     <li><a href="#" class="btn btn-icon-s3">JOIN KPRP               <i
                                                 class="fas fa-angle-double-right"></i></a></li>
@@ -136,9 +137,12 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="video-box-s3 animated" data-animate="fadeInUp" data-delay=".3"><img
+                    <div class="animated" data-animate="fadeInUp" data-delay=".3"><img
                             src="{{ asset('images') }}/zinnia/KPHome.jpg" alt="cover">
                     </div>
+                    <div class="service-img animated text-center" data-animate="fadeInUp" data-delay=".2">
+                        <img  style="width:90%" 
+                            src="{{ asset('images') }}/zinnia/download.jpg" alt="app-screen"></div>
 
                 </div>
             </div>
@@ -159,8 +163,7 @@
                             Decentralize Platform</h2>
 
                         <p class="lead animated" data-animate="fadeInUp" data-delay=".2"><strong>
-                                Our goal is to build a truly decentralized product that houses the decentralized
-                                application world wide.
+                                Our goal is to build a truly decentralized product that houses the crypto world.
                             </strong></p>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".3">
@@ -173,101 +176,7 @@
             </div>
         </div>
     </div><!-- End Section -->
-    <!-- Start Section -->
-    <div class="section section-pad token-alocate-section section-bg" id="tokenAlocate">
-        <div class="ui-shape ui-shape-s3"></div>
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-6">
-                    <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Token Allocation
-                            Forecast</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-s4">
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs text-center animated" data-animate="fadeInUp" data-delay=".2">
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-dist">Distribution </a></li>
-                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-fund">Funding
-                            Allocation</a></li>
-                </ul>
-                <div class="gaps size-2x"></div>
-                <div class="gaps size-3x d-none d-xl-block"></div><!-- Tab panes -->
-                <div class="tab-content animated" data-animate="fadeInUp" data-delay=".3">
-                    <div class="tab-pane animate" id="tab-dist">
-                        <div class="tkn-crt">
-                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-a.png"
-                                    alt="chart"></div>
-                            <ul class="tkn-crt-lst">
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>60%</span></span><span
-                                        class="tkn-crt-ttl">Total supply</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>40%</span></span><span
-                                        class="tkn-crt-ttl">Locked up supply</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>14%</span></span><span
-                                        class="tkn-crt-ttl">Pre sale / Public sale</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>20%</span></span><span
-                                        class="tkn-crt-ttl">Circulating supply</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>10%</span></span><span
-                                        class="tkn-crt-ttl">Stacking reward</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>11%</span></span><span
-                                        class="tkn-crt-ttl">Partners / Team</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>5%</span></span><span
-                                        class="tkn-crt-ttl">Airdrop / Bounty</span></li>
-                            </ul>
-                        </div>
-                    </div><!-- End tab-pane -->
-                    <div class="tab-pane animate active show" id="tab-fund">
-                        <div class="tkn-crt">
-                            {{-- <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-b.png"
-                                    alt="chart"></div> --}}
-                            <ul class="tkn-crt-lst">
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>90%</span></span><span
-                                        class="tkn-crt-ttl">Liquidity pool</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>10%</span></span><span
-                                        class="tkn-crt-ttl">Project development</span></li>
-                            </ul>
-                        </div>
-                    </div><!-- End tab-pane -->
-                </div><!-- .tab-content -->
-            </div><!-- .tab-custom-s4 -->
-        </div>
-        <!-- .container -->
-    </div><!-- End Section -->
-    <!-- Start Section -->
-    <div class="section section-pad document-section section-bg-zinnia" id="documents">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5 res-m-bttm">
-                    <div class="document-img-s3 animated" data-animate="fadeInUp" data-delay=".1"><img
-                            src="{{ asset('images') }}/zinnia/documents-cover.png" alt="documents"></div>
-                </div><!-- .col -->
-                <div class="col-lg-7 text-center text-lg-left">
-                    <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".2">Read Our Documents
-                        </h2>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".3">Here is our full documents that help
-                            you
-                            to understand about us.</p>
-                    </div>
-                    <ul class="document-list">
-                        <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="https://keeper-dapp.gitbook.io/kprp"
-                                class="btn btn-outline">KPRP document</a>
-                        </li>
-                        {{-- <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
-                                class="btn btn-outline">One Pager</a>
-                        </li> --}}
-                        <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="#"
-                                class="btn btn-outline">Privacy
-                                &amp; Policy</a></li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="#"
-                                class="btn btn-outline">Terms &amp; conditions</a></li>
-                    </ul>
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- End Section -->
     <!-- Start Section -->
     <div class="section section-pad services-section section-bg" id="benefit">
         <div class="ui-shape ui-shape-s4"></div>
@@ -337,6 +246,104 @@
                 <div class="col-lg-5 order-first order-lg-last res-m-bttm">
                     <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img
                             src="{{ asset('images') }}/zinnia/KPMenu.jpg" alt="app-screen"></div>
+
+                    <div class="service-img animated text-center" data-animate="fadeInUp" data-delay=".3">
+                        <img  style="width:90%" 
+                            src="{{ asset('images') }}/zinnia/download.jpg" alt="app-screen"></div>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- End Section -->
+    <!-- Start Section -->
+    <div class="section section-pad token-alocate-section section-bg" id="tokenAlocate">
+        <div class="ui-shape ui-shape-s3"></div>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6">
+                    <div class="section-head-s7">
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Token Allocation
+                            Forecast</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-s4">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs text-center animated" data-animate="fadeInUp" data-delay=".2">
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-dist">Distribution </a></li>
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-fund">Funding
+                            Allocation</a></li>
+                </ul>
+                <div class="gaps size-2x"></div>
+                <div class="gaps size-3x d-none d-xl-block"></div><!-- Tab panes -->
+                <div class="tab-content animated" data-animate="fadeInUp" data-delay=".3">
+                    <div class="tab-pane animate" id="tab-dist">
+                        <div class="tkn-crt">
+                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-a.png"
+                                    alt="chart"></div>
+                            <ul class="tkn-crt-lst">
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>60%</span></span><span
+                                        class="tkn-crt-ttl">Total supply</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>40%</span></span><span
+                                        class="tkn-crt-ttl">Locked up supply</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>14%</span></span><span
+                                        class="tkn-crt-ttl">Pre sale / Public sale</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>20%</span></span><span
+                                        class="tkn-crt-ttl">Circulating supply</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>10%</span></span><span
+                                        class="tkn-crt-ttl">Stacking reward</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>11%</span></span><span
+                                        class="tkn-crt-ttl">Partners / Team</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>5%</span></span><span
+                                        class="tkn-crt-ttl">Airdrop / Bounty</span></li>
+                            </ul>
+                        </div>
+                    </div><!-- End tab-pane -->
+                    <div class="tab-pane animate active show" id="tab-fund">
+                        <div class="tkn-crt">
+                            <ul class="tkn-crt-lst">
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>90%</span></span><span
+                                        class="tkn-crt-ttl">Liquidity pool</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>10%</span></span><span
+                                        class="tkn-crt-ttl">Project development</span></li>
+                            </ul>
+                        </div>
+                    </div><!-- End tab-pane -->
+                </div><!-- .tab-content -->
+            </div><!-- .tab-custom-s4 -->
+        </div>
+        <!-- .container -->
+    </div><!-- End Section -->
+    <!-- Start Section -->
+    <div class="section section-pad document-section section-bg-zinnia" id="documents">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 res-m-bttm">
+                    <div class="document-img-s3 animated" data-animate="fadeInUp" data-delay=".1"><img
+                            src="{{ asset('images') }}/zinnia/documents-cover.png" alt="documents"></div>
+                </div><!-- .col -->
+                <div class="col-lg-7 text-center text-lg-left">
+                    <div class="section-head-s7">
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".2">Read Our Documents
+                        </h2>
+
+                        <p class="animated" data-animate="fadeInUp" data-delay=".3">Here is our full documents that help
+                            you
+                            to understand about us.</p>
+                    </div>
+                    <ul class="document-list">
+                        <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="https://keeper-dapp.gitbook.io/kprp"
+                                class="btn btn-outline">KPRP document</a>
+                        </li>
+                        {{-- <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
+                                class="btn btn-outline">One Pager</a>
+                        </li> --}}
+                        <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="#"
+                                class="btn btn-outline">Privacy
+                                &amp; Policy</a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="#"
+                                class="btn btn-outline">Terms &amp; conditions</a></li>
+                    </ul>
                 </div><!-- .col -->
             </div><!-- .row -->
         </div><!-- .container -->
@@ -645,28 +652,6 @@
                     </ul>
                 </div><!-- .col -->
             </div><!-- .row -->
-            {{-- <div class="row justify-content-center"> --}}
-                {{-- <div class="col-lg-8"> --}}
-                    {{-- <form id="contact-form" class="form-message text-center show-error-hint" action="#" method="post">
-                        <div class="form-results"></div>
-                        <div class="input-field animated" data-animate="fadeInUp" data-delay=".6"><input
-                                name="contact-name" type="text" class="input-line required"><label
-                                class="input-title">Your Name</label></div>
-                        <div class="input-field animated" data-animate="fadeInUp" data-delay=".7"><input
-                                name="contact-email" type="email" class="input-line required email"><label
-                                class="input-title">Your Email</label></div>
-                        <div class="input-field animated" data-animate="fadeInUp" data-delay=".8"><textarea
-                                name="contact-message" class="txtarea input-line required"></textarea><label
-                                class="input-title">Your Message</label></div>
-                        <input type="text" class="d-none" name="form-anti-honeypot" value="">
-
-                        <div class="input-field animated" data-animate="fadeInUp" data-delay=".9">
-                            <button type="submit" class="btn">Submit</button>
-                        </div>
-                    </form> --}}
-                {{-- </div> --}}
-                <!-- .col -->
-            {{-- </div> --}}
             <!-- .row -->
         </div><!-- .container -->
     </div><!-- End Section -->
@@ -698,6 +683,9 @@
                         <ul class="widget-links">
                             <li><a href="{{ url('/') }}">Home</a></li>
                             <li><a href="#about">About</a></li>
+                            <li><a href="#benefit">Features</a></li>
+                            <li><a href="#tokenAlocate">Presale</a></li>
+                            <li><a href="#roadmap">Roadmap</a></li>
                             <li><a href="#faq">FAQ</a></li>
                             <li><a href="#contact">Contact Us</a></li>
                         </ul>
