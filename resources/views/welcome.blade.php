@@ -61,7 +61,7 @@
                             <div class="header-txt tab-center mobile-center">
                                 <h1 class="animated" data-animate="fadeInUp" data-delay="1.25">The World’s
                                     1<sup>st</sup> Platform That Brings <br class="d-none d-xl-block">
-                                    All cryptocurrency applications together.
+                                    All cryptocurrency Applications Together.
                                 </h1>
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
