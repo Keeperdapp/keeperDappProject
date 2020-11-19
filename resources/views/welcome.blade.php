@@ -212,7 +212,7 @@
                                         class="tkn-crt-ttl">Circulating supply</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>10%</span></span><span
                                         class="tkn-crt-ttl">Stacking reward</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>4%</span></span><span
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>11%</span></span><span
                                         class="tkn-crt-ttl">Partners</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>5%</span></span><span
                                         class="tkn-crt-ttl">Bounty</span></li>
@@ -221,24 +221,13 @@
                     </div><!-- End tab-pane -->
                     <div class="tab-pane animate active show" id="tab-fund">
                         <div class="tkn-crt">
-                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-b.png"
-                                    alt="chart"></div>
+                            {{-- <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-b.png"
+                                    alt="chart"></div> --}}
                             <ul class="tkn-crt-lst">
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>4%</span></span><span
-                                        class="tkn-crt-ttl">Partners</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>12%</span></span><span
-                                        class="tkn-crt-ttl">Team/Keeper's Advisors and future employees</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>20%</span></span><span
-                                        class="tkn-crt-ttl">Staking reward</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>20%</span></span><span
-                                        class="tkn-crt-ttl">Circulating Supply</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>14 %</span></span><span
-                                        class="tkn-crt-ttl">Presale/Public</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>40%</span></span><span
-                                        class="tkn-crt-ttl">Locked up supply</span></li>
-                                {{-- <li class="tkn-crt-itm">
-                                    <span class="tkn-crt-prcnt seven"><span>150K                                                                                                                                                                                                           %</span></span><span
-                                        class="tkn-crt-ttl">TOTAL SUPPLY</span></li> --}}
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>90%</span></span><span
+                                        class="tkn-crt-ttl">Liquidity pool</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>10%</span></span><span
+                                        class="tkn-crt-ttl">Project development</span></li>
                             </ul>
                         </div>
                     </div><!-- End tab-pane -->
@@ -265,7 +254,7 @@
                             to understand about us.</p>
                     </div>
                     <ul class="document-list">
-                        <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="#"
+                        <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="https://keeper-dapp.gitbook.io/kprp"
                                 class="btn btn-outline">KPRP document</a>
                         </li>
                         {{-- <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
