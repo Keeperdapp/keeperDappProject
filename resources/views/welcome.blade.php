@@ -38,9 +38,8 @@
                                 class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#why">Why</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#benifits">Benifits</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#tokenSale">Token Sale</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#tokenSale">Presale</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Roadmap</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link menu-link" href="#team">Team</a></li> -->
                     <li class="nav-item"><a class="nav-link menu-link" href="#faq">Faqs</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
                 </ul>
@@ -153,7 +152,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 order-last">
                     <div class="animated" data-animate="fadeInUp" data-delay=".5"><img
-                            src="{{ asset('images') }}/zinnia/graph-zinnia-a.png" alt="graph"></div>
+                            src="{{ asset('images') }}/zinnia/graph.jpg" alt="graph"></div>
                 </div>
                 <div class="col-lg-5 text-center text-lg-left res-m-bttm">
                     <div class="text-block">
@@ -304,9 +303,8 @@
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".5">
                                 <div class="service-icon mx-auto mx-lg-0"><img
                                         src="{{ asset('images') }}/zinnia/service-icon-b.png" alt="icon"></div>
-                                <h5 class="service-title">Responsive Design</h5>
-
-                                <p>A very good design layout for easy management of various tokens.</p>
+                                <h5 class="service-title">Better experience</h5>
+                                <p>easy access, fun to use and more focus.</p>
                             </div>
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
@@ -316,7 +314,7 @@
                                 <h5 class="service-title">Easy to Communicate</h5>
 
                                 <p>Communication is very easy and reliable when it comes to keeperDApp.
-                                    bringing you to a live chat with our customers services</p>
+                                    Bringing you to a Telegram community channel where you get the latest updates about us.</p>
                             </div>
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
@@ -678,31 +676,23 @@
         <div class="ui-shape ui-shape-light ui-shape-footer"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm">
+                <div class="col-lg-4 col-sm">
                     <div class="widget-item">
                         <h5 class="widget-title">fEATURES</h5>
                         <ul class="widget-links">
-                            <li>Live Chat</li>
-                            {{-- <li><a href="#">Live Chat</a></li> --}}
-                            <li>Email Marketing</li>
-                            <li>Deep linking crypto applications</li>
-                            <li>User Analytics</li>
-                            <li>Crypto Exchange</li>
+                            <li>Coin tracker apps</li>
+                            <li>Trading tool apps</li>
+                            <li>DAPP web browser</li>
+                            <li>App switch</li>
+                            <li>Staking pool</li>
+                            <li>24Hrs PNL</li>
+                            <li>KeeperDapp decentralized multi wallet / card</li>
                         </ul>
                     </div>
                 </div><!-- .col -->
-                <div class="col-lg-3 col-sm">
-                    <div class="widget-item">
-                        <h5 class="widget-title">RESOURCES</h5>
-                        <ul class="widget-links">
-                            <li><a href="#">Watch Demo</a></li>
-                            <li><a href="">Documents</a></li>
-                            {{-- <li><a href="#">Intigration &amp; API</a></li> --}}
-                            <li><a href="#">iOS &amp; Android Apps</a></li>
-                            <li><a href="#">Privacy &amp; policy</a></li>
-                        </ul>
-                    </div>
-                </div><!-- .col -->
+                <div class="col-lg-2 col-sm">
+                </div> 
+                <!-- .col -->
                 <div class="col-lg-3 col-sm">
                     <div class="widget-item">
                         <h5 class="widget-title">Company</h5>
@@ -747,7 +737,8 @@
         <div id="loader"></div>
         <div class="loader-section loader-top"></div>
         <div class="loader-section loader-bottom"></div>
-    </div><!-- Preloader End -->
+    </div>
+    <!-- Preloader End -->
     <!-- JavaScript (include all script here) -->
     <script src="{{ asset('assets') }}/js/jquery.bundlee222.js?ver=142"></script>
     <script src="{{ asset('assets') }}/js/scripte222.js?ver=142"></script>
