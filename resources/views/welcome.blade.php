@@ -22,7 +22,7 @@
 
 <body class="theme-dark io-zinnia" data-spy="scroll" data-target="#mainnav" data-offset="80">
     <!-- Header -->
-    <header class="site-header is-sticky">
+    <header class="site-header is-sticky mobile-sticky">
         <!-- Place Particle Js -->
         <div id="particles-js" class="particles-container particles-js"></div><!-- Navbar -->
         <div class="navbar navbar-full navbar-expand-lg is-transparent" id="mainnav">
