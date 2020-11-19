@@ -213,9 +213,9 @@
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>10%</span></span><span
                                         class="tkn-crt-ttl">Stacking reward</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>11%</span></span><span
-                                        class="tkn-crt-ttl">Partners</span></li>
+                                        class="tkn-crt-ttl">Partners / Team</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>5%</span></span><span
-                                        class="tkn-crt-ttl">Bounty</span></li>
+                                        class="tkn-crt-ttl">Airdrop / Bounty</span></li>
                             </ul>
                         </div>
                     </div><!-- End tab-pane -->
