@@ -11,8 +11,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{ asset('images') }}/Keeperlogo.png">
     <!-- Site Title  -->
-    <title>KeeperDApp Crypto - Bitcoin &amp;
-        Cryptocurrency</title>
+    <title>KeeperDApp::base for all decentralized app</title>
     <!-- Vendor Bundle CSS -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/vendor.bundlee222.css?ver=142">
     <!-- Custom styles for this template -->
