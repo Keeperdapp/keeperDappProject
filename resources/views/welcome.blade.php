@@ -45,7 +45,7 @@
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
                 </ul>
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KRPP</a>
+                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KPRP</a>
                     </li>
                     <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Download</a></li>
                 </ul>
@@ -72,9 +72,9 @@
 
                                 <div class="gaps size-1x d-none d-md-block"></div>
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
-                                    <li><a href="#" class="btn btn-icon-s3">JOIN KRPP               <i
+                                    <li><a href="#" class="btn btn-icon-s3">JOIN KPRP               <i
                                                 class="fas fa-angle-double-right"></i></a></li>
-                                    <li><a href="#" class="btn btn-icon-s3">DOCUMENT <i
+                                    <li><a href="https://keeper-dapp.gitbook.io/kprp" target="_blank" class="btn btn-icon-s3">DOCUMENT <i
                                                 class="fas fa-angle-double-right"></i></a></li>
                                 </ul>
                             </div>
@@ -92,7 +92,7 @@
                 <div class="row no-gutters justify-content-center">
                     <div class="col-xl-4 col-md-5">
                         <div class="presale-countdown">
-                            <h5>KRPP is Live Now</h5>
+                            <h5>KPRP is Live Now</h5>
                             <h6>base for all decentralized app</h6>
 
                             <div class="token-countdown" data-date="2018/12/05"></div>
@@ -131,6 +131,10 @@
                             characteristic of integrating the crypto world Apps into one App which makes it easier for
                             users to simultaneously manage, protect and navigate in the crypto space just by switching.
                         </p>
+
+
+                    <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img
+                            src="{{ asset('images') }}/zinnia/views.jpeg" alt="app-screen"></div>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -172,179 +176,6 @@
         </div>
     </div><!-- End Section -->
     <!-- Start Section -->
-    <div class="section section-pad prblmsltn-section section-bg-alt" id="benifits">
-        <div class="ui-shape ui-shape-s2"></div>
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-6 col-sm-8">
-                    <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Centralized application Problem &amp;
-                            Solution</h2>
-
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">At vero eos et accusamus et iusto
-                            odio
-                            dignissimos ducimus qui blan ditiis praes entium volup tatum deleniti.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="prblmsltn-list">
-                <div class="prblmsltn-item">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 animate-left delay-5ms">
-                            <div class="prblm-item">
-                                <h2 class="prblm-title">Problem</h2>
-                                <h5 class="prblm-subtitle">
-                                    Centralize Network</h5>
-                                <ul class="prblm-points">
-                                    <li>What is the crypto tech? Lorem ipsum dolor sit amet, consectetur.</li>
-                                    <li>Natural Language Understanding</li>
-                                    <li>How to network with other investors / like-minded people?</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 animate-right delay-7ms">
-                            <div class="sltn-item">
-                                <h2 class="sltn-title">Solution</h2>
-                                <h5 class="sltn-subtitle">
-                                    Decentralize Network</h5>
-                                <ul class="sltn-points">
-                                    <li>What is the crypto tech? Lorem ipsum dolor sit amet, consectetur.</li>
-                                    <li>Natural Language Understanding</li>
-                                    <li>How to network with other investors / like-minded people?</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="prblmsltn-item">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 animate-left delay-5ms">
-                            <div class="prblm-item">
-                                <h2 class="prblm-title">Problem</h2>
-                                <h5 class="prblm-subtitle">
-                                    Centralize Network</h5>
-                                <ul class="prblm-points">
-                                    <li>What is the crypto tech? Lorem ipsum dolor sit amet, consectetur.</li>
-                                    <li>Natural Language Understanding</li>
-                                    <li>How to network with other investors / like-minded people?</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 animate-right delay-7ms">
-                            <div class="sltn-item">
-                                <h2 class="sltn-title">Solution</h2>
-                                <h5 class="sltn-subtitle">
-                                    Decentralize Network</h5>
-                                <ul class="sltn-points">
-                                    <li>What is the crypto tech? Lorem ipsum dolor sit amet, consectetur.</li>
-                                    <li>Natural Language Understanding</li>
-                                    <li>How to network with other investors / like-minded people?</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- End Section -->
-    <!-- Start Section -->
-    {{-- <div class="section section-pad token-sale-section section-bg-zinnia" id="tokenSale"> --}}
-        {{-- <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-6">
-                    <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">KRPP Tokens Details
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        {{-- <div class="container"> --}}
-            {{-- <div class="tokdis-list"> --}}
-                {{-- <div class="row text-center text-lg-left"> --}}
-                    {{-- <div class="col-md">
-                        <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".2">
-                            <span>Tokens Offered</span>
-                            <h5>20M</h5>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                    {{-- <div class="col-md">
-                        <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".3"><span>Soft Cap</span>
-                            <h5>$4M</h5>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                    {{-- <div class="col-md">
-                        <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".4"><span>Hard Cap</span>
-                            <h5>
-                                20 million</h5>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                    {{-- <div class="col-lg-4">
-                        <div class="tokdis-item animated" data-animate="fadeInUp" data-delay=".5">
-                            <span>Tokens Distributed</span>
-                            <h5>30 days after token sale ends</h5>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                {{-- </div> --}}
-                <!-- .row -->
-            {{-- </div> --}}
-            <!-- .tokdis-list -->
-        {{-- </div> --}}
-        <!-- .container -->
-        {{-- <div class="gaps size-2x d-none d-md-block"></div>
-        <div class="gaps size-2x"></div> --}}
-        {{-- <div class="toktmln-list"> --}}
-            {{-- <div class="container"> --}}
-                {{-- <div class="row"> --}}
-                    {{-- <div class="col-lg">
-                        <div class="toktmln-item animated" data-animate="fadeInUp" data-delay=".6">
-                            <div><span>Token Sale I</span><span>January 15- February 15</span></div>
-                            <div><span>67% Bonus</span><span>$0.354344/token</span></div>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                    {{-- <div class="col-lg">
-                        <div class="toktmln-item animated" data-animate="fadeInUp" data-delay=".7">
-                            <div><span>Token Sale II</span><span>March 01 - March 15</span></div>
-                            <div><span>40% Bonus</span><span>$0.354344/token</span></div>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                    {{-- <div class="col-lg">
-                        <div class="toktmln-item animated" data-animate="fadeInUp" data-delay=".8">
-                            <div><span>Token Sale III</span><span>March 25- April 15</span></div>
-                            <div><span>20% Bonus</span><span>$0.354344/token</span></div>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                    {{-- <div class="col-lg">
-                        <div class="toktmln-item animated" data-animate="fadeInUp" data-delay=".9">
-                            <div><span>Token Sale VI</span><span>April 20- May 20</span></div>
-                            <div><span>50% Bonus</span><span>$0.304344/token</span></div>
-                        </div>
-                    </div> --}}
-                    <!-- .col -->
-                    {{-- <div class="col-lg">
-                        <div class="toktmln-item animated" data-animate="fadeInUp" data-delay="1">
-                            <div><span>Token Sale V</span><span>June 01 - July 30</span></div>
-                            <div><span>30% Bonus</span><span>$0.354344/token</span></div>
-                        </div>
-                        <div></div>
-                    </div> --}}
-                    <!-- .col -->
-                {{-- </div> --}}
-                <!-- .row -->
-            {{-- </div> --}}
-            <!-- .container -->
-        {{-- </div> --}}
-        <!-- .toktmln -->
-    {{-- </div> --}}
-    <!-- End Section -->
-    <!-- Start Section -->
     <div class="section section-pad token-alocate-section section-bg" id="tokenAlocate">
         <div class="ui-shape ui-shape-s3"></div>
         <div class="container">
@@ -380,7 +211,7 @@
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>20%</span></span><span
                                         class="tkn-crt-ttl">Circulating supply</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>10%</span></span><span
-                                        class="tkn-crt-ttl">Stacking reward/span></li>
+                                        class="tkn-crt-ttl">Stacking reward</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>4%</span></span><span
                                         class="tkn-crt-ttl">Partners</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>5%</span></span><span
@@ -435,7 +266,7 @@
                     </div>
                     <ul class="document-list">
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="#"
-                                class="btn btn-outline">KRPP document</a>
+                                class="btn btn-outline">KPRP document</a>
                         </li>
                         {{-- <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
                                 class="btn btn-outline">One Pager</a>
@@ -511,7 +342,7 @@
                         </div><!-- .col -->
                     </div><!-- .row -->
                     <ul class="btns text-center text-lg-left animated" data-animate="fadeInUp" data-delay=".8">
-                        <li><a href="#" class="btn btn-sm">Download Now</a></li>
+                        <li><a href="" class="btn btn-sm">Download Now</a></li>
                         <li><a href="#"><em class="fab fa-apple"></em></a>
                             <a href="#"><em class="fab fa-android"></em></a>
                         </li>
@@ -651,7 +482,7 @@
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Frequently asked
                             questions</h2>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Below we’ve provided a bit of KRPP
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Below we’ve provided a bit of KPRP
                             Token, cryptocurrencies, and few others. If you have any other questions, please get in
                             touch
                             using the contact form below.</p>
@@ -666,7 +497,7 @@
                             data-delay=".1">
                             <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-1">General</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-2">KRPP Related</a>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-2">KPRP Related</a>
                             </li>
                         </ul>
                         <div class="gaps size-1x"></div><!-- Tab panes -->
@@ -708,7 +539,7 @@
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
                                                     data-target="#collapse-1-3">How can I participate in
-                                                    the KRPP Token sale?<span class="plus-minus"><span
+                                                    the KPRP Token sale?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a>
                                             </h5>
                                         </div>
@@ -724,7 +555,7 @@
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
                                                     data-target="#collapse-1-4">How do I benefit from
-                                                    the KRPP Token?<span class="plus-minus"><span
+                                                    the KPRP Token?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-1-4" class="collapse" data-parent="#accordion-1">
@@ -784,7 +615,7 @@
                                         </div>
                                         <div id="collapse-2-4" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>An KRPP pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
+                                                <p>An KPRP pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
                                             </div>
                                         </div>
                                     </div>
@@ -804,7 +635,7 @@
             <div class="row text-center">
                 <div class="col">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact KRPP CRYPTO
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact KPRP CRYPTO
                         </h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Any question? Reach out to us and
@@ -816,11 +647,11 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <ul class="contact-info">
-                        <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
+                        {{-- <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
                                 class="fa fa-phone"></em><span>+44 0123 4567</span>
-                        </li>
+                        </li> --}}
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><em
-                                class="fa fa-envelope"></em><span>info@yourcompany.com</span>
+                                class="fa fa-envelope"></em><span>info@keeperdapp.io</span>
                         </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".5"><em
                                 class="fa fa-paper-plane"></em><span><a href="https://t.me/keeperDApp">Join us on
@@ -828,9 +659,9 @@
                     </ul>
                 </div><!-- .col -->
             </div><!-- .row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <form id="contact-form" class="form-message text-center show-error-hint" action="#" method="post">
+            {{-- <div class="row justify-content-center"> --}}
+                {{-- <div class="col-lg-8"> --}}
+                    {{-- <form id="contact-form" class="form-message text-center show-error-hint" action="#" method="post">
                         <div class="form-results"></div>
                         <div class="input-field animated" data-animate="fadeInUp" data-delay=".6"><input
                                 name="contact-name" type="text" class="input-line required"><label
@@ -846,9 +677,11 @@
                         <div class="input-field animated" data-animate="fadeInUp" data-delay=".9">
                             <button type="submit" class="btn">Submit</button>
                         </div>
-                    </form>
-                </div><!-- .col -->
-            </div><!-- .row -->
+                    </form> --}}
+                {{-- </div> --}}
+                <!-- .col -->
+            {{-- </div> --}}
+            <!-- .row -->
         </div><!-- .container -->
     </div><!-- End Section -->
     <!-- Start Section -->
@@ -860,10 +693,12 @@
                     <div class="widget-item">
                         <h5 class="widget-title">fEATURES</h5>
                         <ul class="widget-links">
-                            <li><a href="#">Live Chat</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">User Analytics</a></li>
-                            <li><a href="#">Crypto Exchange</a></li>
+                            <li>Live Chat</li>
+                            {{-- <li><a href="#">Live Chat</a></li> --}}
+                            <li>Email Marketing</li>
+                            <li>Deep linking crypto applications</li>
+                            <li>User Analytics</li>
+                            <li>Crypto Exchange</li>
                         </ul>
                     </div>
                 </div><!-- .col -->
@@ -872,8 +707,8 @@
                         <h5 class="widget-title">RESOURCES</h5>
                         <ul class="widget-links">
                             <li><a href="#">Watch Demo</a></li>
-                            {{-- <li><a href="#">Whitepaper</a></li> --}}
-                            <li><a href="#">Intigration &amp; API</a></li>
+                            <li><a href="">Documents</a></li>
+                            {{-- <li><a href="#">Intigration &amp; API</a></li> --}}
                             <li><a href="#">iOS &amp; Android Apps</a></li>
                             <li><a href="#">Privacy &amp; policy</a></li>
                         </ul>
@@ -883,17 +718,16 @@
                     <div class="widget-item">
                         <h5 class="widget-title">Company</h5>
                         <ul class="widget-links">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                         </ul>
                     </div>
                 </div><!-- .col -->
                 <div class="col-lg-3">
                     <div class="widget-item">
-                        <h5 class="widget-title widget-title-ncap">NewsLetter</h5>
+                        <h5 class="widget-title widget-title-ncap">New updates</h5>
 
                         <div class="widget-subsctibe">
                             Let's keep in touch with you
