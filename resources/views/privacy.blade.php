@@ -259,8 +259,8 @@
                         individual and aggregated basis.
                     </p>
                     <h4>Why do we use Cookies?</h4>
-                    <p class="lead animated">
                     <p>We generally use Cookies for the following purposes:</p>
+                    <p class="lead animated">
 
                     To recognize new or past customers.
                     To store your password if you are registered on our Site.
@@ -276,7 +276,7 @@
                     recognize that you have created an account and have logged into that account to access Site
                     content. They also include Cookies that enable us to remember your previous actions within the
                     same browsing session and secure our Sites.
-                    <p>We also use functional Cookies and Cookies from third parties for analysis and marketing
+                    <p class="lead animated">We also use functional Cookies and Cookies from third parties for analysis and marketing
                         purposes. Functional Cookies enable certain parts of the site to work properly and your user
                         preferences to remain known. Analysis Cookies, among other things, collect information on how
                         visitors use our Site, the content and products that users view most frequently, and the
