@@ -133,7 +133,8 @@
 
 
                     <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img
-                            src="{{ asset('images') }}/zinnia/views.jpeg" alt="app-screen"></div>
+                            src="{{ asset('images') }}/zinnia/views1.jpg" alt="mobile-view"></div>
+                            {{-- src="{{ asset('images') }}/zinnia/views.jpeg" alt="mobile-view"></div> --}}
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -142,7 +143,7 @@
                     </div>
                     <div class="service-img animated text-center" data-animate="fadeInUp" data-delay=".2">
                         <img  style="width:90%" 
-                            src="{{ asset('images') }}/zinnia/download.jpg" alt="app-screen"></div>
+                            src="{{ asset('images') }}/zinnia/download.jpg" alt="mobile-view"></div>
 
                 </div>
             </div>
@@ -245,11 +246,11 @@
                 </div><!-- .col -->
                 <div class="col-lg-5 order-first order-lg-last res-m-bttm">
                     <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img
-                            src="{{ asset('images') }}/zinnia/KPMenu.jpg" alt="app-screen"></div>
+                            src="{{ asset('images') }}/zinnia/KPMenu.jpg" alt="mobile-menu-view"></div>
 
                     <div class="service-img animated text-center" data-animate="fadeInUp" data-delay=".3">
                         <img  style="width:90%" 
-                            src="{{ asset('images') }}/zinnia/download.jpg" alt="app-screen"></div>
+                            src="{{ asset('images') }}/zinnia/download.jpg" alt="mobile"></div>
                     </div>
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -338,10 +339,10 @@
                         {{-- <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
                                 class="btn btn-outline">One Pager</a>
                         </li> --}}
-                        <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="#"
+                        <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="{{ url('/privacy-and-policy') }}"
                                 class="btn btn-outline">Privacy
                                 &amp; Policy</a></li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="#"
+                        <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="{{url('/terms-and-conditions  ')}}"
                                 class="btn btn-outline">Terms &amp; conditions</a></li>
                     </ul>
                 </div><!-- .col -->
@@ -608,7 +609,7 @@
                                         </div>
                                         <div id="collapse-2-4" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>An KPRP pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
+                                                <p>Pre-sale is when an up-and-coming token team sells a set amount of coins before the initial coin offering. This gives the team immediate funding and generates buzz</p>
                                             </div>
                                         </div>
                                     </div>
@@ -628,7 +629,7 @@
             <div class="row text-center">
                 <div class="col">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact KPRP CRYPTO
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact KPRP SUPPORT
                         </h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Any question? Reach out to us and

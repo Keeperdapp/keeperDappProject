@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/privacy-and-policy', 'viewController@privacy');
+Route::get('/terms-and-conditions', 'viewController@termsconditions');
