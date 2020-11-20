@@ -333,7 +333,7 @@
                             to understand about us.</p>
                     </div>
                     <ul class="document-list">
-                        <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="https://keeper-dapp.gitbook.io/kprp"
+                        <li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="https://keeperdapp.gitbook.io/keeperdapp/" target="_blank"
                                 class="btn btn-outline">KPRP document</a>
                         </li>
                         {{-- <li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"
