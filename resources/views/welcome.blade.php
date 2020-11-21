@@ -101,11 +101,11 @@
                         <div class="presale-status">
                             <h5>Pre Sale</h5>
 
-                            <div class="presale-bar">
+                            {{-- <div class="presale-bar">
                                 <div class="presale-bar-percent" style="width:0%"></div>
-                            </div>
+                            </div> --}}
                             <div class="presale-points d-flex justify-content-between">
-                                <span>Coming soon, Loading...</span>
+                                <span>Coming soon, Loading...</span><span><h6>3rd Dec</h6></span>
                                 {{-- <span>End</span> --}}
                                 {{-- <span>15k Sold</span><span>75k Sold</span> --}}
                             </div>
@@ -444,10 +444,8 @@
                 <div class="row no-gutters text-left text-lg-center justify-content-center">
                     <div class="col-lg">
                         <div class="timeline-item"><span class="timeline-date">Q2 2021</span>
-                            <h6 class="timeline-title">
-                                Crowdfunding Integration</h6>
+                            <h6 class="timeline-title">Introducing Keeper's most secured wallet/card with multiple features</h6>
                             <ul class="timeline-info">
-                                <li>Smart contracts support creators</li>
                                 <li>Ethereum tokens support</li>
                                 <li>Adding more crypto Apps both decentralized and centralized crypto exchange</li>
                             </ul>
@@ -565,6 +563,7 @@
                                                     and will be very happy to receive proposals from the community to
                                                     create more staking pools to enable members to earn more tokens like
                                                     BNB, DIA to mention a few.</p>
+                                                    <p>Access your local fiat anywhere, anytime in the world when you link your card to your Keeper's wallet.</p>
                                                     <p> Staking reward: [10%]- 15,000 Kprp tokens</p>
                                                     <p>Airdrop reward & Bounty marketing: [5%]- 7,500 Kprp tokens. Here the Bounty marketing benefits include benefits earned by winners in a trading competition that will be hosted in exchanges.</p>
                                             </div>
@@ -646,9 +645,11 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <ul class="contact-info">
-                        {{-- <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
-                                class="fa fa-phone"></em><span>+44 0123 4567</span>
-                        </li> --}}
+                        <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
+                                class="fa fa-twitter"></em><span>
+                                    <a href="https://twitter.com/KeeperDApp?s=09">
+                                    Twitter</a></span>
+                        </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><em
                                 class="fa fa-envelope"></em><span>info@keeperdapp.io</span>
                         </li>
