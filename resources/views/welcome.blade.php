@@ -82,7 +82,7 @@
                 </div><!-- .banner-content  -->
             </div><!-- .container  -->
             <ul class="hr-social hr-social-mid animated" data-animate="fadeIn" data-delay="1.55">
-                <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                <li><a href="https://twitter.com/KeeperDApp?s=09" target="_blank"><em class="fab fa-twitter"></em></a></li>
                 <li><a href="https://t.me/keeperDApp" target="_blank"><em class="fab fa-telegram"></em></a></li>
             </ul>
         </div><!-- End Banner/Slider -->
@@ -629,7 +629,7 @@
             <div class="row text-center">
                 <div class="col">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact KPRP SUPPORT
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">CONTACT KPRP SUPPORT
                         </h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Any question? Reach out to us and
