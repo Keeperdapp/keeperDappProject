@@ -102,10 +102,11 @@
                             <h5>Pre Sale</h5>
 
                             <div class="presale-bar">
-                                <div class="presale-bar-percent" style="width:15%"></div>
+                                <div class="presale-bar-percent" style="width:0%"></div>
                             </div>
                             <div class="presale-points d-flex justify-content-between">
-                                <span>Start</span><span>End</span>
+                                <span>Coming soon, Loading...</span>
+                                {{-- <span>End</span> --}}
                                 {{-- <span>15k Sold</span><span>75k Sold</span> --}}
                             </div>
                         </div>
@@ -271,14 +272,14 @@
             <div class="tab-s4">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs text-center animated" data-animate="fadeInUp" data-delay=".2">
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-dist">Distribution </a></li>
-                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-fund">Funding
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-dist">Distribution </a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-fund">Funding
                             Allocation</a></li>
                 </ul>
                 <div class="gaps size-2x"></div>
                 <div class="gaps size-3x d-none d-xl-block"></div><!-- Tab panes -->
                 <div class="tab-content animated" data-animate="fadeInUp" data-delay=".3">
-                    <div class="tab-pane animate" id="tab-dist">
+                    <div class="tab-pane animate  active show" id="tab-dist">
                         <div class="tkn-crt">
                             <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-a.png"
                                     alt="chart"></div>
@@ -300,7 +301,7 @@
                             </ul>
                         </div>
                     </div><!-- End tab-pane -->
-                    <div class="tab-pane animate active show" id="tab-fund">
+                    <div class="tab-pane animate" id="tab-fund">
                         <div class="tkn-crt">
                             <ul class="tkn-crt-lst">
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>90%</span></span><span
@@ -357,7 +358,7 @@
                     <div class="section-head-s7">
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Roadmap</h2>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Our team working hardly to make
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Our team is working hardly to make
                             archive of a great decentralized network and a platform that comprises other decentralized applications</p>
                     </div>
                 </div>
@@ -386,7 +387,7 @@
                     </div><!-- .col -->
                     <div class="col-lg">
                         <div class="timeline-item timeline-done"><span class="timeline-date">September</span>
-                            <h6 class="timeline-title">Design</h6>
+                            <h6 class="timeline-title">Communication</h6>
                             <ul class="timeline-info">
                                 <li>our social media link to gain closure and growth of our community.</li>
                             </ul>
@@ -396,7 +397,7 @@
                         <div class="timeline-item timeline-done"><span class="timeline-date">October</span>
                             <h6 class="timeline-title">AMA</h6>
                             <ul class="timeline-info">
-                                <li>First &amp; Second AMA</li>
+                                <li>First AMA on 17th Oct 2020[Zoom]</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
@@ -406,9 +407,10 @@
                 <div class="row no-gutters text-left text-lg-center justify-content-center flex-row-reverse">
                     <div class="col-lg">
                         <div class="timeline-item timeline-current"><span class="timeline-date">November</span>
-                            <h6 class="timeline-title">Token Sale</h6>
+                            <h6 class="timeline-title">AMA</h6>
                             <ul class="timeline-info">
-                                <li>Private sale</li>
+                                <li>Second AMA Nov 2020[Telegram]</li>
+                                <li>Review / Website lunch(beta version)</li>
                                 <li>Public sale</li>
                                 <li>Listing of $Kprp on Uniswap</li>
                             </ul>
@@ -420,16 +422,15 @@
                                 Publicity</h6>
                             <ul class="timeline-info">
                                 <li>Lunching of our staking pool</li>
-                                <li>Listing of $Kprp on two(2) exchanges</li>
+                                <li>Listing of $Kprp on two(3) exchanges</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">March Q1</span>
+                        <div class="timeline-item"><span class="timeline-date">Q1 2021</span>
                             <h6 class="timeline-title">App
                                 Beta Test</h6>
                             <ul class="timeline-info">
-                                <li>Private closed beta</li>
                                 <li>ios Version</li>
                                 <li>android Version</li>
                                 <li>Open beta launched to public and improvement the app</li>
@@ -442,16 +443,17 @@
                 data-delay=".5">
                 <div class="row no-gutters text-left text-lg-center justify-content-center">
                     <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">April Q2</span>
+                        <div class="timeline-item"><span class="timeline-date">Q2 2021</span>
                             <h6 class="timeline-title">
                                 Crowdfunding Integration</h6>
                             <ul class="timeline-info">
                                 <li>Smart contracts support creators</li>
                                 <li>Ethereum tokens support</li>
+                                <li>Adding more crypto Apps both decentralized and centralized crypto exchange</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
-                    <div class="col-lg">
+                    {{-- <div class="col-lg">
                         <div class="timeline-item"><span class="timeline-date">2020 Q2</span>
                             <h6 class="timeline-title">More
                                 Operational</h6>
@@ -460,7 +462,8 @@
                                 <li>New services offered by members or business</li>
                             </ul>
                         </div>
-                    </div><!-- .col -->
+                    </div> --}}
+                    <!-- .col -->
                 </div><!-- .row -->
             </div><!-- .timeline-row -->
             <div class="gaps size-2x d-lg-none"></div>
@@ -562,6 +565,8 @@
                                                     and will be very happy to receive proposals from the community to
                                                     create more staking pools to enable members to earn more tokens like
                                                     BNB, DIA to mention a few.</p>
+                                                    <p> Staking reward: [10%]- 15,000 Kprp tokens</p>
+                                                    <p>Airdrop reward & Bounty marketing: [5%]- 7,500 Kprp tokens. Here the Bounty marketing benefits include benefits earned by winners in a trading competition that will be hosted in exchanges.</p>
                                             </div>
                                         </div>
                                     </div>
