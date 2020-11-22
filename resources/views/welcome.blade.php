@@ -45,7 +45,7 @@
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
                     {{-- <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KPRP</a>
                     </li> --}}
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Download</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Pre-Sale</a></li>
                 </ul>
             </div>
         </div><!-- End Navbar -->
@@ -71,8 +71,8 @@
                                 <div class="gaps size-1x d-none d-md-block"></div>
 
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
-                                    <li><a href="#" class="btn btn-icon-s3">JOIN KPRP               <i
-                                                class="fas fa-angle-double-right"></i></a></li>
+                                    <li><a href="#" class="btn btn-icon-s3">CONTRACT ADDRESS               
+                                        <i class="fas fa-angle-double-right"></i></a></li>
                                     <li><a href="https://keeper-dapp.gitbook.io/kprp" target="_blank" class="btn btn-icon-s3">DOCUMENT <i
                                                 class="fas fa-angle-double-right"></i></a></li>
                                 </ul>
