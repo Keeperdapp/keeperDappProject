@@ -122,7 +122,7 @@
     <div class="section section-pad about-section no-pb section-bg" id="about">
         <div class="container mt-3">
             <div class="row justify-content-center text-center">
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <div class="section-head-s7">
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">About Keeper</h2>
 
@@ -138,7 +138,7 @@
                             {{-- src="{{ asset('images') }}/zinnia/views.jpeg" alt="mobile-view"></div> --}}
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <div class="animated" data-animate="fadeInUp" data-delay=".3"><img
                             src="{{ asset('images') }}/zinnia/KPHome.jpg" alt="cover">
                     </div>
