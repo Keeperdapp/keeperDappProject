@@ -161,7 +161,7 @@
                 </div>
                 <div class="col-lg-5 text-center text-lg-left res-m-bttm">
                     <div class="text-block">
-                        <h2 class="animated" data-animate="fadeInUp" data-delay=".1">Direct-To-Consumer
+                        <h2 class="animated" data-animate="fadeInUp" data-delay=".1">Direct To Consumer
                             Decentralize Platform</h2>
 
                         <p class="lead animated" data-animate="fadeInUp" data-delay=".2"><strong>
