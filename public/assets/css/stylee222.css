@@ -3752,8 +3752,7 @@ select:focus {
       border-radius: 50%;
       margin-right: 15px;
       }
-
-      .contact-info li .fab {
+      .contact-info li .fab { 
           font-size: 20px;
           line-height: 38px;
           width: 38px;
