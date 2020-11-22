@@ -234,7 +234,7 @@
                                 <h5 class="service-title">Safe &amp; Secure</h5>
 
                                 <p>Safe and security is important, keeperDApp makes sure your transactions and other
-                                    related decentralized request are decrypted to enforce secure pipeline</p>
+                                    related decentralized request are decrypted to enforce secure pipeline.</p>
                             </div>
                         </div><!-- .col -->
                     </div><!-- .row -->
@@ -366,7 +366,7 @@
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Roadmap</h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Our team is working hardly to make
-                            archive of a great decentralized network and a platform that comprises other decentralized applications</p>
+                            archive of a great decentralized network and a platform that comprises other decentralized applications.</p>
                     </div>
                 </div>
             </div>
