@@ -71,7 +71,7 @@
                                 <div class="gaps size-1x d-none d-md-block"></div>
 
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
-                                    <li><a href="#" class="btn btn-icon-s3">JOIN KPRP               <i
+                                    <li><a href="https://etherscan.io/address/0xe5dd3e4607cc1aba94f93494160277294b9c9aaf" class="btn btn-icon-s3">CONTRACT ADDRESS              <i
                                                 class="fas fa-angle-double-right"></i></a></li>
                                     <li><a href="https://keeper-dapp.gitbook.io/kprp" target="_blank" class="btn btn-icon-s3">DOCUMENT <i
                                                 class="fas fa-angle-double-right"></i></a></li>
