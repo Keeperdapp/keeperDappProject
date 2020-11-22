@@ -101,9 +101,9 @@
                         <div class="presale-status">
                             <h5>Pre Sale</h5>
 
-                            {{-- <div class="presale-bar">
+                            <div class="presale-bar">
                                 <div class="presale-bar-percent" style="width:0%"></div>
-                            </div> --}}
+                            </div>
                             <div class="presale-points d-flex justify-content-between">
                                 <span>Coming soon, Loading...</span><span><h6>30thNov - 3rd Dec</h6></span>
                                 {{-- <span>End</span> --}}
