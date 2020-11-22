@@ -240,8 +240,8 @@
                     </div><!-- .row -->
                     <ul class="btns text-center text-lg-left animated" data-animate="fadeInUp" data-delay=".8">
                         <li><a href="#" class="btn btn-sm">Buy KPRP</a></li>
-                        <li><a href="#"><em class="fab fa-apple"></em></a>
-                            <a href="#"><em class="fab fa-android"></em></a>
+                        {{-- <li><a href="#"><em class="fab fa-apple"></em></a> --}}
+                            {{-- <a href="#"><em class="fab fa-android"></em></a> --}}
                         </li>
                     </ul>
                 </div><!-- .col -->
