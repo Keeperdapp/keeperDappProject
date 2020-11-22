@@ -1881,6 +1881,12 @@ a {
   color: #fff;
   /* background: linear-gradient(-45deg, #9eb7e9 0%, #463995 100%); */
   background: linear-gradient(135deg, #49c967 0%, #196e2d 100%);}
+.io-zinnia .contact-info li .fab {
+    color: #fff;
+    /* background: linear-gradient(-45deg, #9eb7e9 0%, #463995 100%); */
+    background: linear-gradient(135deg, #49c967 0%, #196e2d 100%);
+}
+  
 .io-zinnia .form-message .input-field .input-line {
   color: #5a5d7a;
   border-bottom-color: #fff; }
