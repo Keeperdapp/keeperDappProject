@@ -91,7 +91,7 @@
                 <div class="row no-gutters justify-content-center">
                     <div class="col-xl-4 col-md-5">
                         <div class="presale-countdown">
-                            <h5>KPRP is Soon Now</h5>
+                            <h5>KPRP is Coming Soon</h5>
                             <h6>base for all decentralized app</h6>
 
                             <div class="token-countdown" data-date="2018/12/05"></div>
