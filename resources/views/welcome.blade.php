@@ -127,7 +127,7 @@
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">About Keeper</h2>
 
                         <p class="lead animated" data-animate="fadeInUp" data-delay=".2">
-                            Keeper.DApp Network is a decentralized Financial System that has an interoperability
+                            KeeperDApp Network is a decentralized Financial System that has an interoperability
                             characteristic of integrating the crypto world Apps into one App which makes it easier for
                             users to simultaneously manage, protect and navigate in the crypto space just by switching.
                         </p>
