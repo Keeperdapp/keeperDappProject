@@ -43,8 +43,8 @@
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
                 </ul>
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KPRP</a>
-                    </li>
+                    {{-- <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KPRP</a>
+                    </li> --}}
                     <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Download</a></li>
                 </ul>
             </div>
@@ -105,7 +105,7 @@
                                 <div class="presale-bar-percent" style="width:0%"></div>
                             </div> --}}
                             <div class="presale-points d-flex justify-content-between">
-                                <span>Coming soon, Loading...</span><span><h6>3rd Dec</h6></span>
+                                <span>Coming soon, Loading...</span><span><h6>30thNov - 3rd Dec</h6></span>
                                 {{-- <span>End</span> --}}
                                 {{-- <span>15k Sold</span><span>75k Sold</span> --}}
                             </div>
@@ -214,7 +214,7 @@
                                 <div class="service-icon mx-auto mx-lg-0"><img
                                         src="{{ asset('images') }}/zinnia/service-icon-b.png" alt="icon"></div>
                                 <h5 class="service-title">Better experience</h5>
-                                <p>easy access, fun to use and more focus.</p>
+                                <p>Easy access to your local fiat anywhere, anytime in the world when you link your card to your Keeper's wallet, fun to use, and more focus.</p>
                             </div>
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
@@ -239,7 +239,7 @@
                         </div><!-- .col -->
                     </div><!-- .row -->
                     <ul class="btns text-center text-lg-left animated" data-animate="fadeInUp" data-delay=".8">
-                        <li><a href="" class="btn btn-sm">Download Now</a></li>
+                        <li><a href="#" class="btn btn-sm">Buy KPRP</a></li>
                         <li><a href="#"><em class="fab fa-apple"></em></a>
                             <a href="#"><em class="fab fa-android"></em></a>
                         </li>
@@ -284,6 +284,13 @@
                             <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-a.png"
                                     alt="chart"></div>
                             <ul class="tkn-crt-lst">
+                                {{-- #346c15
+                                #66cd07
+                                #74e80a
+                                #81ea49
+                                #aeee85
+                                #55af71
+                                #4fa754 --}}
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>60%</span></span><span
                                         class="tkn-crt-ttl">Total supply</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>40%</span></span><span
@@ -322,7 +329,7 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 res-m-bttm">
                     <div class="document-img-s3 animated" data-animate="fadeInUp" data-delay=".1"><img
-                            src="{{ asset('images') }}/zinnia/documents-cover.png" alt="documents"></div>
+                            src="{{ asset('images') }}/zinnia/documents-cover.jpg" alt="documents" style="width: 80%"></div>
                 </div><!-- .col -->
                 <div class="col-lg-7 text-center text-lg-left">
                     <div class="section-head-s7">
@@ -646,7 +653,7 @@
                 <div class="col-lg-8">
                     <ul class="contact-info">
                         <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
-                                class="fa fa-twitter"></em><span>
+                                class="fab fa-twitter"></em><span>
                                     <a href="https://twitter.com/KeeperDApp?s=09">
                                     Twitter</a></span>
                         </li>
