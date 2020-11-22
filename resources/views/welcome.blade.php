@@ -251,7 +251,7 @@
 
                     <div class="service-img animated text-center" data-animate="fadeInUp" data-delay=".3">
                         <img  style="width:90%" 
-                            src="{{ asset('images') }}/zinnia/download.jpg" alt="mobile"></div>
+                            src="{{ asset('images') }}/zinnia/download.jpeg" alt="mobile"></div>
                     </div>
                 </div><!-- .col -->
             </div><!-- .row -->
