@@ -1999,25 +1999,34 @@ a {
   background: #fe4350;
   color: #fff; }
   .tkn-crt-prcnt.one {
-    background: #fe4350; }
+    background: #346c15;
+    }
   .tkn-crt-prcnt.two {
-    background: #fb6b5d; }
+    background: #66cd07
+    }
   .tkn-crt-prcnt.three {
-    background: #ff5676; }
+    background: #70a53f
+    }
   .tkn-crt-prcnt.four {
-    background: #ff774e; }
+    background: #81ea49
+    }
   .tkn-crt-prcnt.five {
-    background: #ff6993; }
+    background: #aeee85
+    }
   .tkn-crt-prcnt.six {
-    background: #ff9465; }
+    background: #55af71
+    }
   .tkn-crt-prcnt.seven {
-    background: #fb7fc8; }
+    background: #4fa754
+    }
 .tkn-crt-ttl {
   color: #223b55; }
 
 @media (min-width: 992px) {
   .tkn-crt:before {
-    background: rgba(254, 67, 80, 0.05); } }
+    background: rgb(97 255 71 / 8%)
+    /* background: rgba(254, 67, 80, 0.05); */
+   } }
 .document-list > li .dropdown-menu li {
   border-bottom-color: rgba(254, 67, 80, 0.1); }
   .document-list > li .dropdown-menu li:last-child {

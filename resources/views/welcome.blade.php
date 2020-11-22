@@ -43,9 +43,9 @@
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
                 </ul>
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KPRP</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Download</a></li>
+                    {{-- <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">JOIN KPRP</a>
+                    </li> --}}
+                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Pre-Sale</a></li>
                 </ul>
             </div>
         </div><!-- End Navbar -->
@@ -71,8 +71,8 @@
                                 <div class="gaps size-1x d-none d-md-block"></div>
 
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
-                                    <li><a href="https://etherscan.io/address/0xe5dd3e4607cc1aba94f93494160277294b9c9aaf" class="btn btn-icon-s3">CONTRACT ADDRESS              <i
-                                                class="fas fa-angle-double-right"></i></a></li>
+                                    <li><a href="#" class="btn btn-icon-s3">CONTRACT ADDRESS               
+                                        <i class="fas fa-angle-double-right"></i></a></li>
                                     <li><a href="https://keeper-dapp.gitbook.io/kprp" target="_blank" class="btn btn-icon-s3">DOCUMENT <i
                                                 class="fas fa-angle-double-right"></i></a></li>
                                 </ul>
@@ -91,7 +91,7 @@
                 <div class="row no-gutters justify-content-center">
                     <div class="col-xl-4 col-md-5">
                         <div class="presale-countdown">
-                            <h5>KPRP is Live Now</h5>
+                            <h5>KPRP is Coming Soon</h5>
                             <h6>base for all decentralized app</h6>
 
                             <div class="token-countdown" data-date="2018/12/05"></div>
@@ -101,11 +101,12 @@
                         <div class="presale-status">
                             <h5>Pre Sale</h5>
 
-                            <div class="presale-bar">
-                                <div class="presale-bar-percent" style="width:15%"></div>
-                            </div>
+                            {{-- <div class="presale-bar">
+                                <div class="presale-bar-percent" style="width:0%"></div>
+                            </div> --}}
                             <div class="presale-points d-flex justify-content-between">
-                                <span>Start</span><span>End</span>
+                                <span>Coming soon, Loading...</span><span><h6>30thNov - 3rd Dec</h6></span>
+                                {{-- <span>End</span> --}}
                                 {{-- <span>15k Sold</span><span>75k Sold</span> --}}
                             </div>
                         </div>
@@ -213,7 +214,7 @@
                                 <div class="service-icon mx-auto mx-lg-0"><img
                                         src="{{ asset('images') }}/zinnia/service-icon-b.png" alt="icon"></div>
                                 <h5 class="service-title">Better experience</h5>
-                                <p>easy access, fun to use and more focus.</p>
+                                <p>Easy access to your local fiat anywhere, anytime in the world when you link your card to your Keeper's wallet, fun to use, and more focus.</p>
                             </div>
                         </div><!-- .col -->
                         <div class="col-xl-5 col-md-6">
@@ -238,7 +239,7 @@
                         </div><!-- .col -->
                     </div><!-- .row -->
                     <ul class="btns text-center text-lg-left animated" data-animate="fadeInUp" data-delay=".8">
-                        <li><a href="" class="btn btn-sm">Download Now</a></li>
+                        <li><a href="#" class="btn btn-sm">Buy KPRP</a></li>
                         <li><a href="#"><em class="fab fa-apple"></em></a>
                             <a href="#"><em class="fab fa-android"></em></a>
                         </li>
@@ -271,18 +272,25 @@
             <div class="tab-s4">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs text-center animated" data-animate="fadeInUp" data-delay=".2">
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-dist">Distribution </a></li>
-                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-fund">Funding
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab-dist">Distribution </a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-fund">Funding
                             Allocation</a></li>
                 </ul>
                 <div class="gaps size-2x"></div>
                 <div class="gaps size-3x d-none d-xl-block"></div><!-- Tab panes -->
                 <div class="tab-content animated" data-animate="fadeInUp" data-delay=".3">
-                    <div class="tab-pane animate" id="tab-dist">
+                    <div class="tab-pane animate  active show" id="tab-dist">
                         <div class="tkn-crt">
                             <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-a.png"
                                     alt="chart"></div>
                             <ul class="tkn-crt-lst">
+                                {{-- #346c15
+                                #66cd07
+                                #74e80a
+                                #81ea49
+                                #aeee85
+                                #55af71
+                                #4fa754 --}}
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>60%</span></span><span
                                         class="tkn-crt-ttl">Total supply</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>40%</span></span><span
@@ -300,7 +308,7 @@
                             </ul>
                         </div>
                     </div><!-- End tab-pane -->
-                    <div class="tab-pane animate active show" id="tab-fund">
+                    <div class="tab-pane animate" id="tab-fund">
                         <div class="tkn-crt">
                             <ul class="tkn-crt-lst">
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>90%</span></span><span
@@ -321,7 +329,7 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 res-m-bttm">
                     <div class="document-img-s3 animated" data-animate="fadeInUp" data-delay=".1"><img
-                            src="{{ asset('images') }}/zinnia/documents-cover.png" alt="documents"></div>
+                            src="{{ asset('images') }}/zinnia/documents-cover.jpg" alt="documents" style="width: 80%"></div>
                 </div><!-- .col -->
                 <div class="col-lg-7 text-center text-lg-left">
                     <div class="section-head-s7">
@@ -357,7 +365,7 @@
                     <div class="section-head-s7">
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Roadmap</h2>
 
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Our team working hardly to make
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Our team is working hardly to make
                             archive of a great decentralized network and a platform that comprises other decentralized applications</p>
                     </div>
                 </div>
@@ -386,7 +394,7 @@
                     </div><!-- .col -->
                     <div class="col-lg">
                         <div class="timeline-item timeline-done"><span class="timeline-date">September</span>
-                            <h6 class="timeline-title">Design</h6>
+                            <h6 class="timeline-title">Communication</h6>
                             <ul class="timeline-info">
                                 <li>our social media link to gain closure and growth of our community.</li>
                             </ul>
@@ -396,7 +404,7 @@
                         <div class="timeline-item timeline-done"><span class="timeline-date">October</span>
                             <h6 class="timeline-title">AMA</h6>
                             <ul class="timeline-info">
-                                <li>First &amp; Second AMA</li>
+                                <li>First AMA on 17th Oct 2020[Zoom]</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
@@ -406,9 +414,10 @@
                 <div class="row no-gutters text-left text-lg-center justify-content-center flex-row-reverse">
                     <div class="col-lg">
                         <div class="timeline-item timeline-current"><span class="timeline-date">November</span>
-                            <h6 class="timeline-title">Token Sale</h6>
+                            <h6 class="timeline-title">AMA</h6>
                             <ul class="timeline-info">
-                                <li>Private sale</li>
+                                <li>Second AMA Nov 2020[Telegram]</li>
+                                <li>Review / Website lunch(beta version)</li>
                                 <li>Public sale</li>
                                 <li>Listing of $Kprp on Uniswap</li>
                             </ul>
@@ -420,16 +429,15 @@
                                 Publicity</h6>
                             <ul class="timeline-info">
                                 <li>Lunching of our staking pool</li>
-                                <li>Listing of $Kprp on two(2) exchanges</li>
+                                <li>Listing of $Kprp on two(3) exchanges</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">March Q1</span>
+                        <div class="timeline-item"><span class="timeline-date">Q1 2021</span>
                             <h6 class="timeline-title">App
                                 Beta Test</h6>
                             <ul class="timeline-info">
-                                <li>Private closed beta</li>
                                 <li>ios Version</li>
                                 <li>android Version</li>
                                 <li>Open beta launched to public and improvement the app</li>
@@ -442,16 +450,15 @@
                 data-delay=".5">
                 <div class="row no-gutters text-left text-lg-center justify-content-center">
                     <div class="col-lg">
-                        <div class="timeline-item"><span class="timeline-date">April Q2</span>
-                            <h6 class="timeline-title">
-                                Crowdfunding Integration</h6>
+                        <div class="timeline-item"><span class="timeline-date">Q2 2021</span>
+                            <h6 class="timeline-title">Introducing Keeper's most secured wallet/card with multiple features</h6>
                             <ul class="timeline-info">
-                                <li>Smart contracts support creators</li>
                                 <li>Ethereum tokens support</li>
+                                <li>Adding more crypto Apps both decentralized and centralized crypto exchange</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
-                    <div class="col-lg">
+                    {{-- <div class="col-lg">
                         <div class="timeline-item"><span class="timeline-date">2020 Q2</span>
                             <h6 class="timeline-title">More
                                 Operational</h6>
@@ -460,7 +467,8 @@
                                 <li>New services offered by members or business</li>
                             </ul>
                         </div>
-                    </div><!-- .col -->
+                    </div> --}}
+                    <!-- .col -->
                 </div><!-- .row -->
             </div><!-- .timeline-row -->
             <div class="gaps size-2x d-lg-none"></div>
@@ -562,6 +570,9 @@
                                                     and will be very happy to receive proposals from the community to
                                                     create more staking pools to enable members to earn more tokens like
                                                     BNB, DIA to mention a few.</p>
+                                                    <p>Access your local fiat anywhere, anytime in the world when you link your card to your Keeper's wallet.</p>
+                                                    <p> Staking reward: [10%]- 15,000 Kprp tokens</p>
+                                                    <p>Airdrop reward & Bounty marketing: [5%]- 7,500 Kprp tokens. Here the Bounty marketing benefits include benefits earned by winners in a trading competition that will be hosted in exchanges.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -641,9 +652,11 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <ul class="contact-info">
-                        {{-- <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
-                                class="fa fa-phone"></em><span>+44 0123 4567</span>
-                        </li> --}}
+                        <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
+                                class="fab fa-twitter"></em><span>
+                                    <a href="https://twitter.com/KeeperDApp?s=09">
+                                    Twitter</a></span>
+                        </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><em
                                 class="fa fa-envelope"></em><span>info@keeperdapp.io</span>
                         </li>
