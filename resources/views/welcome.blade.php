@@ -514,7 +514,7 @@
                                         </div>
                                         <div id="collapse-1-1" class="collapse show" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>Keeper.DApp Network is a decentralized Financial System that has an
+                                                <p>KeeperDApp Network is a decentralized Financial System that has an
                                                     interoperability characteristic
                                                     of integrating the crypto world Apps into one Decentralized App
                                                     which makes it easier for users to simultaneously manage,
@@ -541,7 +541,7 @@
                                         <div class="card-header">
                                             <h5><a class="collapsed" data-toggle="collapse"
                                                     data-target="#collapse-1-3">How can I participate in
-                                                    the KPRP Token sale?<span class="plus-minus"><span
+                                                    the KPRP Token pre-sale?<span class="plus-minus"><span
                                                             class="ti ti-angle-up"></span></span></a>
                                             </h5>
                                         </div>
@@ -604,7 +604,7 @@
                                         </div>
                                         <div id="collapse-2-2" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>You can participate in our pre-sales from the Keeper.DApp web
+                                                <p>You can participate in our pre-sales from the KeeperDApp web
                                                     <br>OR
                                                     Send ETH directly to the contract address (Be sure to set a gas
                                                     limit of at least 100,000).</p>
