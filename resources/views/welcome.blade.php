@@ -45,7 +45,7 @@
                 <ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
                     <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">BUY KPRP</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Pre-Sale</a></li>
+                    {{-- <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="#">Pre-Sale</a></li> --}}
                 </ul>
             </div>
         </div><!-- End Navbar -->
