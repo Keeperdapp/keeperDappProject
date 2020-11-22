@@ -142,8 +142,8 @@
                     <div class="animated mt-lg-4" data-animate="fadeInUp" data-delay=".3"><img
                             src="{{ asset('images') }}/zinnia/KPHome.jpg" alt="cover">
                     </div>
-                    <div class="service-img animated text-center" data-animate="fadeInUp" data-delay=".2">
-                        <img  style="width:90%" 
+                    <div class="service-img animated" data-animate="fadeInUp" data-delay=".2">
+                        <img  style="width:93%" 
                             src="{{ asset('images') }}/zinnia/download.jpeg" alt="mobile-view"></div>
 
                 </div>
