@@ -144,7 +144,7 @@
                     </div>
                     <div class="service-img animated text-center" data-animate="fadeInUp" data-delay=".2">
                         <img  style="width:90%" 
-                            src="{{ asset('images') }}/zinnia/download.jpg" alt="mobile-view"></div>
+                            src="{{ asset('images') }}/zinnia/download.jpeg" alt="mobile-view"></div>
 
                 </div>
             </div>
