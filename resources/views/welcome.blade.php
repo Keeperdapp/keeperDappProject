@@ -11,7 +11,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{ asset('images') }}/Keeperlogo.png">
     <!-- Site Title  -->
-    <title>KeeperDApp::base for all decentralized app</title>
+    <title>KeeperDApp::Decentralize your crypto world.</title>
     <!-- Vendor Bundle CSS -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/vendor.bundlee222.css?ver=142">
     <!-- Custom styles for this template -->
@@ -92,7 +92,7 @@
                     <div class="col-xl-4 col-md-5">
                         <div class="presale-countdown">
                             <h5>KPRP is Coming Soon</h5>
-                            <h6>base for all decentralized app</h6>
+                            <h6>Decentralize your crypto world.</h6>
 
                             <div class="token-countdown" data-date="2018/12/05"></div>
                         </div>
