@@ -653,14 +653,14 @@
                     <ul class="contact-info">
                         <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
                                 class="fab fa-twitter"></em><span>
-                                    <a href="https://twitter.com/KeeperDApp?s=09">
+                                    <a href="https://twitter.com/KeeperDApp?s=09" target="_blank">
                                     Twitter</a></span>
                         </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><em
                                 class="fa fa-envelope"></em><span>info@keeperdapp.io</span>
                         </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".5"><em
-                                class="fa fa-paper-plane"></em><span><a href="https://t.me/keeperDApp">Join us on
+                                class="fa fa-paper-plane"></em><span><a href="https://t.me/keeperDApp" target="_blank">Join us on
                                     Telegram</a></span></li>
                     </ul>
                 </div><!-- .col -->
