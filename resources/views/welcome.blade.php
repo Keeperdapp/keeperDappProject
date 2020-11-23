@@ -135,15 +135,14 @@
 
                     <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img
                             src="{{ asset('images') }}/zinnia/views1.jpg" alt="mobile-view"></div>
-                            {{-- src="{{ asset('images') }}/zinnia/views.jpeg" alt="mobile-view"></div> --}}
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="animated mt-lg-4" data-animate="fadeInUp" data-delay=".3"><img
-                            src="{{ asset('images') }}/zinnia/KPHome.jpg" alt="cover">
+                            src="{{ asset('images') }}/zinnia/KPHome.jpg" alt="cover" lazy="loading">
                     </div>
                     <div class="service-img animated" data-animate="fadeInUp" data-delay=".2">
-                        <img  style="width:93%" 
+                        <img  style="width:93%" lazy="loading"
                             src="{{ asset('images') }}/zinnia/download.jpeg" alt="mobile-view"></div>
 
                 </div>
