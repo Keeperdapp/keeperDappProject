@@ -439,7 +439,7 @@
                             <ul class="timeline-info">
                                 <li>ios Version</li>
                                 <li>android Version</li>
-                                <li>Open beta launched to public and improvement the app</li>
+                                <li>Open beta launched to public and app improvement</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
