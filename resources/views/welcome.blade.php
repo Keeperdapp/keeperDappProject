@@ -157,7 +157,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 order-last">
                     <div class="animated" data-animate="fadeInUp" data-delay=".5"><img
-                            src="{{ asset('images') }}/zinnia/graph.jpg" alt="graph"></div>
+                            src="{{ asset('images') }}/zinnia/graph.png" alt="graph"></div>
                 </div>
                 <div class="col-lg-5 text-center text-lg-left res-m-bttm">
                     <div class="text-block">
