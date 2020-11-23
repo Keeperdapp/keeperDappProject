@@ -12,9 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'viewController@home');
 Route::get('/privacy-and-policy', 'viewController@privacy');
 Route::get('/terms-and-conditions', 'viewController@termsconditions');

@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 
 class viewController extends Controller
 {
-    
+    public function home() {
+        return view('welcome');
+    }
     public function privacy() {
         return view('privacy');
     }
