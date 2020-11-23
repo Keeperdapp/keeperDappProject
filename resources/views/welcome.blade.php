@@ -26,8 +26,8 @@
         <div id="particles-js" class="particles-container particles-js"></div><!-- Navbar -->
         <div class="navbar navbar-full navbar-expand-lg is-transparent" id="mainnav">
             <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="{{ url('/') }}">
-                <h4 class="logo logo-light">KeeperDApp</h4>
-                <h5 class="logo logo-dark" style="color:green">KeeperDApp</h5>
+                <h4 class="logo logo-light"><img src="{{ asset('images') }}/Keeperlogo.png" />KeeperDApp</h4>
+                <h5 class="logo logo-dark" style="color:green"><img src="{{ asset('images') }}/Keeperlogo.png" />KeeperDApp</h5>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"><span
                     class="navbar-toggler-icon"><span class="ti ti-align-justify"></span></span></button>
