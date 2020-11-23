@@ -20,11 +20,9 @@
 </head>
 
 <body class="io-zinnia" style="overflow-x: unset">
-    <nav class="navbar navbar-expand-lg navbar-light text-white" style="background-color: #28a745; color:white">
+    <nav class="navbar navbar-expand-lg navbar-light text-white" style="background-color: #35b753; color:white">
         <a class="navbar-brand" href="{{ url('/') }}"><span style="color:white">
-                {{-- <img href="{{ asset('images') }}/Keeper-logo.png"
-                    style="width:50px; height: 50px" /> --}}
-                <h4>KeeperDapp</h4>
+                <h4><img src="{{ asset('images') }}/Keeperlogo.png" style="width:50px; height: 50px;"/>KeeperDapp</h4>
             </span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
