@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'viewController@home');
 Route::get('/privacy-and-policy', 'viewController@privacy');
 Route::get('/terms-and-conditions', 'viewController@termsconditions');
+Route::get('/connect', 'viewController@connect');

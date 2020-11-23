@@ -1,37 +1,7 @@
-<!DOCTYPE html>
-<html lang="zxx" class="js">
+    @extends('layout.layout')
+    @section('title', 'Privacy')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Softnio">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="ICO Crypto is a modern and elegant landing page, created for ICO Agencies and digital crypto currency investment website.">
-    <!-- Fav Icon -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" href="{{ asset('images') }}/Keeperlogo.png">
-    <!-- Site Title  -->
-    <title>KeeperDApp::base for all decentralized app</title>
-    <!-- Vendor Bundle CSS -->
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/vendor.bundlee222.css?ver=142">
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/stylee222.css?ver=142">
-    <link rel="stylesheet" href="{{ asset('assets') }}/css/theme-orangee222.css?ver=142" id="layoutstyle">
-</head>
-
-<body class="io-zinnia" style="overflow-x: unset">
-    <nav class="navbar navbar-expand-lg navbar-light text-white" style="background-color: #35b753; color:white">
-        <a class="navbar-brand" href="{{ url('/') }}"><span style="color:white">
-                {{-- <img href="{{ asset('images') }}/Keeper-logo.png"
-                    style="width:50px; height: 50px" /> --}}
-                <h4><img src="{{ asset('images') }}/Keeperlogo.png" style="width:50px; height: 50px;"/>KeeperDapp</h4>
-            </span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </nav>
-
+    @section('content')
     <div class="section section-pad about-section no-pb section-bg" id="about">
         <div class="container mt-1">
             <div class="row justify-content-center">
@@ -262,21 +232,22 @@
                     <p>We generally use Cookies for the following purposes:</p>
                     <p class="lead animated">
 
-                    To recognize new or past customers.
-                    To store your password if you are registered on our Site.
-                    To improve our Site and to better understand your visits on our platforms and Site.
-                    To integrate with third party social media websites.
-                    To serve you with interest-based or targeted advertising.
-                    To observe your behaviors and browsing activities over time across multiple websites or other
-                    platforms.
-                    To better understand the interests of our customers and our website visitors.
-                    Some Cookies are necessary for certain uses of the Site, and without such Cookies, we would not
-                    be able to provide many services that you need to properly use the Site. These Cookies, for
-                    example, allow us to operate our Site so you may access it as you have requested and let us
-                    recognize that you have created an account and have logged into that account to access Site
-                    content. They also include Cookies that enable us to remember your previous actions within the
-                    same browsing session and secure our Sites.
-                    <p class="lead animated">We also use functional Cookies and Cookies from third parties for analysis and marketing
+                        To recognize new or past customers.
+                        To store your password if you are registered on our Site.
+                        To improve our Site and to better understand your visits on our platforms and Site.
+                        To integrate with third party social media websites.
+                        To serve you with interest-based or targeted advertising.
+                        To observe your behaviors and browsing activities over time across multiple websites or other
+                        platforms.
+                        To better understand the interests of our customers and our website visitors.
+                        Some Cookies are necessary for certain uses of the Site, and without such Cookies, we would not
+                        be able to provide many services that you need to properly use the Site. These Cookies, for
+                        example, allow us to operate our Site so you may access it as you have requested and let us
+                        recognize that you have created an account and have logged into that account to access Site
+                        content. They also include Cookies that enable us to remember your previous actions within the
+                        same browsing session and secure our Sites.
+                    <p class="lead animated">We also use functional Cookies and Cookies from third parties for analysis
+                        and marketing
                         purposes. Functional Cookies enable certain parts of the site to work properly and your user
                         preferences to remain known. Analysis Cookies, among other things, collect information on how
                         visitors use our Site, the content and products that users view most frequently, and the
@@ -301,15 +272,4 @@
             </div>
         </div>
     </div><!-- End Section -->
-    <div class="gaps size-3x"></div>
-    <nav class="navbar navbar-expand-lg navbar-light text-white" style="background-color: #28a745; color:white">
-        <a class="navbar-brand" href="{{ url('/') }}"><span style="color:white">
-                <h7>KeeperDapp &copy; 2020</h7>
-            </span></a>
-    </nav>
-    <!-- JavaScript (include all script here) -->
-    <script src="{{ asset('assets') }}/js/jquery.bundlee222.js?ver=142"></script>
-    <script src="{{ asset('assets') }}/js/scripte222.js?ver=142"></script>
-</body>
-
-</html>
+    @endsection

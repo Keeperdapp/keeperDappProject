@@ -15,4 +15,7 @@ class viewController extends Controller
     public function termsconditions() {
         return view('termsConditions');
     }
+    public function connect() {
+        return view('connect');
+    }
 }
