@@ -428,7 +428,7 @@
                                 Publicity</h6>
                             <ul class="timeline-info">
                                 <li>Lunching of our staking pool</li>
-                                <li>Listing of $Kprp on two(3) exchanges</li>
+                                <li>Listing of $Kprp on two(2) exchanges</li>
                             </ul>
                         </div>
                     </div><!-- .col -->
