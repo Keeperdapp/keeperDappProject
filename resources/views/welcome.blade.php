@@ -290,7 +290,7 @@
                 <div class="tab-content animated" data-animate="fadeInUp" data-delay=".3">
                     <div class="tab-pane animate  active show" id="tab-dist">
                         <div class="tkn-crt">
-                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/chart-zinnia-a.png"
+                            <div class="tkn-crt-img"><img src="{{ asset('images') }}/zinnia/kprp-token.png"
                                     alt="chart"></div>
                             <ul class="tkn-crt-lst">
                                 {{-- #346c15
