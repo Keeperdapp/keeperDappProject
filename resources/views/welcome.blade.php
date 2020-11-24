@@ -212,7 +212,7 @@
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".4">
                                 <div class="service-icon mx-auto mx-lg-0"><img
                                         src="{{ asset('images') }}/zinnia/service-icon-a.png" alt="icon"></div>
-                                <h5 class="service-title">Easy to Buy &amp; Sale Token</h5>
+                                <h5 class="service-title">Easy to Buy &amp; Sell Token</h5>
 
                                 <p>This is made very easy for you to buy and sell token to different decentralized
                                     application networks.</p>
