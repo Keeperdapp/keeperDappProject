@@ -290,18 +290,27 @@
                                 #aeee85
                                 #55af71
                                 #4fa754 --}}
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>60%</span></span><span
-                                        class="tkn-crt-ttl">Total supply</span></li>
+                                {{-- <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>60%</span></span><span
+                                        class="tkn-crt-ttl">Total supply</span></li> --}}
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>40%</span></span><span
                                         class="tkn-crt-ttl">Locked up supply</span></li>
+
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>14%</span></span><span
                                         class="tkn-crt-ttl">Pre sale / Public sale</span></li>
+
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>20%</span></span><span
                                         class="tkn-crt-ttl">Circulating supply</span></li>
+
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>10%</span></span><span
                                         class="tkn-crt-ttl">Stacking reward</span></li>
+
+
+                                {{-- <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>7%</span></span><span
+                                        class="tkn-crt-ttl">Team/Keeper's Advisors </span></li> --}}
+                                        
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>11%</span></span><span
                                         class="tkn-crt-ttl">Partners / Team</span></li>
+
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>5%</span></span><span
                                         class="tkn-crt-ttl">Airdrop / Bounty</span></li>
                             </ul>
