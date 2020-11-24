@@ -17,7 +17,17 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="{{ asset('assets') }}/css/stylee222.css?ver=142">
     <link rel="stylesheet" href="{{ asset('assets') }}/css/theme-orangee222.css?ver=142" id="layoutstyle">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYSCSG577R"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RYSCSG577R');
+    </script>
 </head>
+
 
 <body class="theme-dark io-zinnia" data-spy="scroll" data-target="#mainnav" data-offset="80">
     <!-- Header -->
@@ -303,14 +313,8 @@
 
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>10%</span></span><span
                                         class="tkn-crt-ttl">Stacking reward</span></li>
-
-
-                                {{-- <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>7%</span></span><span
-                                        class="tkn-crt-ttl">Team/Keeper's Advisors </span></li> --}}
-                                        
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>11%</span></span><span
                                         class="tkn-crt-ttl">Partners / Team</span></li>
-
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>5%</span></span><span
                                         class="tkn-crt-ttl">Airdrop / Bounty</span></li>
                             </ul>
