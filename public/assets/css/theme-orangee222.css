@@ -1878,6 +1878,17 @@ a {
 .io-zinnia .loader-section {
   background: #fff;
   }
+  .con__ :hover {
+    color: #61c42f !important
+  }
+  .connect-btn {
+    background: linear-gradient(135deg, #49c967 0%, #196e2d 100%);
+    line-height: 42px;
+    border: none;
+  }
+  .connect-btn:hover {
+    color: white;
+  }
 
   .contact-info li .fab {
       font-size: 20px;
